@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="FECF3B9FAE8C8F5B99186EF9135FEDDC0D73D77C8B33D912B2308B0A7C72A7076C4088EB15408E8882E9A14EF8BDADFE3DF992AFA126143F59A1C8836E9A8114" Timestamp="1D4FFF652258F9E" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.2.1.50272" Name="LabVIEW NXG" Version="3.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="1" RootNamespaceId="14" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="5" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="WebApplication" Id="10" Name="Configuration1">
+			<CompilerSymbolTable Id="11" xmlns="http://www.ni.com/PlatformFramework" />
+			<WebApplicationOutputTypeProperties Id="12" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
+			<ComponentItemProperties AssociatedEnvoyId="15" Id="16" TopLevel="True" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="6" xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="7" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<EmbeddedDefinitionReference Id="8" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="14" Name="WebApp">
+				<SourceFileReference Id="15" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="IndoorMonitoring.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="IndoorMonitoring.gviweb" />
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="26" Name="NodeCommunication">
+					<SourceFileReference Id="27" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GetFileList.gvi" StoragePath="NodeCommunication\GetFileList.gvi" />
+					<SourceFileReference Id="28" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GetDebug.gvi" StoragePath="NodeCommunication\GetDebug.gvi" />
+					<SourceFileReference Id="29" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GetAveraged.gvi" StoragePath="NodeCommunication\GetAveraged.gvi" />
+					<SourceFileReference Id="30" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GetActualValues.gvi" StoragePath="NodeCommunication\GetActualValues.gvi" />
+					<SourceFileReference Bindings="EnvoyManager" Id="31" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Debug.gtype" StoragePath="NodeCommunication\Debug.gtype\Debug.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="32" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="ActualValues.gtype" StoragePath="NodeCommunication\ActualValues.gtype\ActualValues.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="34" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="AVGData.gtype" StoragePath="NodeCommunication\AVGData.gtype\AVGData.gtype" />
+					<SourceFileReference Id="37" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GetFileData.gvi" StoragePath="NodeCommunication\GetFileData.gvi" />
+					<SourceFileReference Id="39" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GetHistoricalMinMax.gvi" StoragePath="NodeCommunication\GetHistoricalMinMax.gvi" />
+					<SourceFileReference Bindings="EnvoyManager" Id="40" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="HistMinMax.gtype" StoragePath="NodeCommunication\HistMinMax.gtype\HistMinMax.gtype" />
+				</NameScopingEnvoy>
+				<SourceFileReference Id="35" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UI_Actuals.gvi" StoragePath="UI_Actuals.gvi" />
+				<SourceFileReference Id="36" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UI_Averaged.gvi" StoragePath="UI_Averaged.gvi" />
+				<SourceFileReference Id="38" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UI_Historical.gvi" StoragePath="UI_Historical.gvi" />
+				<SourceFileReference Id="41" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UI_HistoricalMinMax.gvi" StoragePath="UI_HistoricalMinMax.gvi" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="9" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="WebApp.gcomp" NameTracksFileName="True">
+			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<ContentReference ContentIdentifier="10" Id="13" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

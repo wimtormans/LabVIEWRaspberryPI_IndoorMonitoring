@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="1B5940024EF0656BDF8F8CED68BA02A89E20DF08BDDF84F5ABA2C28AE4CB409AA0946FB545C2F45163B9E9B8C5C8DE0A9FB1F66E2B0379B5CD62BD6AAC4525B6" Timestamp="1D4FF38A4847A37" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.2.1.50272" Name="LabVIEW NXG" Version="3.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@f5f8b79685d24f4ba4f1ce832bf65dc9" Id="1" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@f5f8b79685d24f4ba4f1ce832bf65dc9" Id="26" Name="Cluster">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>null</Field1>
+					<Field2>null</Field2>
+					<Field3>null</Field3>
+					<Field4>null</Field4>
+					<Field5>null</Field5>
+				</Cluster>
+			</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="5" xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="6" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="7" Name="HistMinMax.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="8" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="9" xmlns="http://www.ni.com/MocCommon">
+					<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@f5f8b79685d24f4ba4f1ce832bf65dc9" Height="[float]328" Id="10" Label="[UIModel]27" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=26}" Width="[float]127" xmlns="http://www.ni.com/PanelCommon">
+						<ArrayViewer ArrayElement="[UIModel]21" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]36" Id="11" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]12" Left="[float]4" Orientation="[SMOrientation]Vertical" Rows="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=Time}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]111">
+							<p.DefaultElementValue>0x0</p.DefaultElementValue>
+							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="21" MinHeight="[float]24" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						</ArrayViewer>
+						<Label Id="12" LabelOwner="[UIModel]11" Left="[float]4" Text="[string]Time" Top="[float]4" />
+						<ArrayViewer ArrayElement="[UIModel]22" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]36" Id="13" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]14" Left="[float]4" Orientation="[SMOrientation]Vertical" Rows="[int]1" Top="[float]88" Value="{ClusterBinding FieldName=Temp\ Max}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]111">
+							<p.DefaultElementValue>0x0</p.DefaultElementValue>
+							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="22" MinHeight="[float]24" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						</ArrayViewer>
+						<Label Id="14" LabelOwner="[UIModel]13" Left="[float]4" Text="[string]Temp Max" Top="[float]68" />
+						<ArrayViewer ArrayElement="[UIModel]23" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]36" Id="15" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]16" Left="[float]4" Orientation="[SMOrientation]Vertical" Rows="[int]1" Top="[float]152" Value="{ClusterBinding FieldName=Temp\ Min}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]111">
+							<p.DefaultElementValue>0x0</p.DefaultElementValue>
+							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="23" MinHeight="[float]24" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						</ArrayViewer>
+						<Label Id="16" LabelOwner="[UIModel]15" Left="[float]4" Text="[string]Temp Min" Top="[float]132" />
+						<ArrayViewer ArrayElement="[UIModel]24" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]36" Id="17" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]18" Left="[float]4" Orientation="[SMOrientation]Vertical" Rows="[int]1" Top="[float]216" Value="{ClusterBinding FieldName=RH\ Max}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]111">
+							<p.DefaultElementValue>0x0</p.DefaultElementValue>
+							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="24" MinHeight="[float]24" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						</ArrayViewer>
+						<Label Id="18" LabelOwner="[UIModel]17" Left="[float]4" Text="[string]RH Max" Top="[float]196" />
+						<ArrayViewer ArrayElement="[UIModel]25" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]36" Id="19" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]20" Left="[float]4" Orientation="[SMOrientation]Vertical" Rows="[int]1" Top="[float]280" Value="{ClusterBinding FieldName=RH\ Min}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]111">
+							<p.DefaultElementValue>0x0</p.DefaultElementValue>
+							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="25" MinHeight="[float]24" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						</ArrayViewer>
+						<Label Id="20" LabelOwner="[UIModel]19" Left="[float]4" Text="[string]RH Min" Top="[float]260" />
+					</Cluster>
+					<Label Id="27" LabelOwner="[UIModel]10" Left="[float]100" Text="[string]Cluster" Top="[float]80" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="f5f8b79685d24f4ba4f1ce832bf65dc9">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Time" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Temp Max" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Temp Min" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="RH Max" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="RH Min" DataType="Double[]" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

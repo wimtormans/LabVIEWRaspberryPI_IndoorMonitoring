@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JobList>
+  <Job OutputType="Distribution:NiPackagePartial">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>Distribution:NiPackagePartial</ComponentSubtypeIdentifier>
+      <BuildId>C:\VIT\RaspberryPI IndoorMonitoring\WebVI\IndoorMonitoring\Builds\WebApp</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>Distribution:NiPackagePartial</ComponentSubtypeIdentifier>
+      <BuildId>C:\VIT\RaspberryPI IndoorMonitoring\WebVI\IndoorMonitoring\Builds\WebApp</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp\vitechnologies-indoormonitoring-labview-webapp-bin-1_1.0.0.4_windows_x64.nipkg</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:03</LastTotalTime>
+    <HasChild>True</HasChild>
+    <QualifiedName>::NullTarget::WebApp.lvdist</QualifiedName>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>C:\VIT\RaspberryPI IndoorMonitoring\WebVI\IndoorMonitoring\Builds\WebApp_Web Server</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>Distribution:NiPackagePartial</ComponentSubtypeIdentifier>
+      <BuildId>C:\VIT\RaspberryPI IndoorMonitoring\WebVI\IndoorMonitoring\Builds\WebApp</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <HasChild>False</HasChild>
+    <QualifiedName>::Web Server::Interactive::WebApp.gcomp</QualifiedName>
+  </Job>
+</JobList>
