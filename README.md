@@ -18,7 +18,11 @@ Raspberry PI 3 B with an SHT21 I2C sensor connected.
 
 I followed the installation instructions from makerhub (https://www.labviewmakerhub.com/).
 
-Additionally, I did the 'chroot SSH trick' to able to read the CPU temperature of the Raspberry PI (https://www.labviewmakerhub.com/doku.php?id=learn:libraries:linx:misc:chroot-ssh-trick)
+After installation I had a small linking issue on the raspberry PI when deploying the code: LMH-LINX.lvlib
+A fix can be found in this topic: https://www.labviewmakerhub.com/forums/viewtopic.php?f=12&t=3018
+
+
+Additionally, I did the 'chroot SSH trick' to be able to read the CPU temperature of the Raspberry PI (https://www.labviewmakerhub.com/doku.php?id=learn:libraries:linx:misc:chroot-ssh-trick)
 
 - WebVI:
 
