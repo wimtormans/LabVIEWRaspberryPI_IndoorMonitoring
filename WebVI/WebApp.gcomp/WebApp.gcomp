@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="FECF3B9FAE8C8F5B99186EF9135FEDDC0D73D77C8B33D912B2308B0A7C72A7076C4088EB15408E8882E9A14EF8BDADFE3DF992AFA126143F59A1C8836E9A8114" Timestamp="1D4FFF652258F9E" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="B33996DCB8B961CEE3937489ADBC712D75C9B501A1241954315F574D1AAAC0C28B734D99DC8C563303B7DDD641EA110ACF1DE180200D0252A7018C623B91A482" Timestamp="1D504CD43A07E26" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
@@ -41,6 +41,7 @@
 				<SourceFileReference Id="36" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UI_Averaged.gvi" StoragePath="UI_Averaged.gvi" />
 				<SourceFileReference Id="38" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UI_Historical.gvi" StoragePath="UI_Historical.gvi" />
 				<SourceFileReference Id="41" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UI_HistoricalMinMax.gvi" StoragePath="UI_HistoricalMinMax.gvi" />
+				<SourceFileReference Id="42" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UI_FileList.gvi" StoragePath="UI_FileList.gvi" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="9" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="WebApp.gcomp" NameTracksFileName="True">

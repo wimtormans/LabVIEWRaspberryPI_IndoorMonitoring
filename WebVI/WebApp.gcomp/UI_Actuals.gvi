@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="FFC6FE5EE61811213BEACE21915A0D144624B48CCEEDD0BC0CD9252D266760E4E9FADA645B9ACB8E83B1C5DE8EFEDA7091A83DC3DE66B5EAB1A888A7428810A8" Timestamp="1D50179EC927F85" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="721CBFA28C254B2B8B953BE4A18F467A9D1BA6103359D096797F6E10CA1654B562B0EF09B4E32C37E4ED7824CDB104F469253C430F1A7916E2D1CABCB5EEAD51" Timestamp="1D504CCD9F49D37" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -113,7 +113,7 @@
 				<CaseStructure.Case Bounds="5 5 715 390" Id="23" Pattern="No Error">
 					<ForLoop Bounds="73 43 556 316" DiagramId="41" Id="33">
 						<LoopIteration Bounds="5 286 15 15" Id="50" />
-						<MethodCall Bounds="35 180 40 40" Id="51" ResolveFailedHint="&quot;C:\\VIT\\RaspberryPI IndoorMonitoring\\WebVI\\IndoorMonitoring\\WebApp.gcomp\\NodeCommunication\\GetActualValues.gvi&quot;" Signature="@1511ae52809548ac9bf62a4c905d4bf4" Target="WebApp::NodeCommunication::GetActualValues.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="35 180 40 40" Id="51" ResolveFailedHint="&quot;C:\\VIT\\GitHub\\LabVIEWRaspberryPI_IndoorMonitoring\\WebVI\\WebApp.gcomp\\NodeCommunication\\GetActualValues.gvi&quot;" Signature="@1511ae52809548ac9bf62a4c905d4bf4" Target="WebApp::NodeCommunication::GetActualValues.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="client handle" />
@@ -134,7 +134,7 @@
 						<Wire Id="52" Joints="N(44:i0)|(6,185) N(51:L0)|(35,185)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="53" Joints="N(45:i0)|(6,150) h(19) B(1) h(100) v(45) N(55:L1)|(145,195) B(1) v(45) N(51:L1)|(35,195)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="54" Joints="N(51:R1)|(75,195) h(20) v(90) N(46:i0)|(544,285)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="145 180 40 40" Id="55" ResolveFailedHint="&quot;C:\\VIT\\RaspberryPI IndoorMonitoring\\WebVI\\IndoorMonitoring\\WebApp.gcomp\\NodeCommunication\\GetDebug.gvi&quot;" Signature="@10e2bbb92c694bd6be7495e08ebc22ea" Target="WebApp::NodeCommunication::GetDebug.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="145 180 40 40" Id="55" ResolveFailedHint="&quot;C:\\VIT\\GitHub\\LabVIEWRaspberryPI_IndoorMonitoring\\WebVI\\WebApp.gcomp\\NodeCommunication\\GetDebug.gvi&quot;" Signature="@10e2bbb92c694bd6be7495e08ebc22ea" Target="WebApp::NodeCommunication::GetDebug.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="client handle" />
@@ -154,9 +154,8 @@
 						</MethodCall>
 						<Wire Id="56" Joints="N(51:R0)|(75,185) N(55:L0)|(145,185)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="57" Joints="N(55:R0)|(185,185) N(43:41)|(544,185)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="58" Joints="N(47:i0)|(6,215) N(51:L3)|(35,215)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="58" Joints="N(132:i0)|(6,215) N(51:L3)|(35,215)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="59" Joints="N(51:R3)|(75,215) N(55:L3)|(145,215)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="60" Joints="N(55:R3)|(185,215) N(48:41)|(544,215)" xmlns="http://www.ni.com/PlatformFramework" />
 						<PropertyNode Bounds="241 40 99 80" HasErrorTerminals="False" Id="61" InstanceDataType="@6fadd5acf92c4285bafcb25aab3557d1" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
 							<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 								<TypeDefinitionTarget TargetName="WebApp::NodeCommunication::Debug.gtype" />
@@ -189,28 +188,31 @@
 							<p.Text>format string</p.Text>
 						</NodeLabel>
 						<Wire Id="73" Joints="N(71:Out)|(440,10) h(35) N(62:formatString)|(475,20)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="137" Joints="N(55:R3)|(185,215) N(138:i0)|(544,215)" xmlns="http://www.ni.com/PlatformFramework" />
 						<LoopCount Bounds="1 1 15 15" Docking="Left" Id="42" Terminals="33, 41" />
 						<RightShiftRegister Bounds="546 182 13 10" Docking="Right" Id="43" Terminals="33=36, 41=57" />
 						<LeftShiftRegister Bounds="-5 182 13 10" Docking="Left" Id="44" RightRegister="43" Terminals="o0=35, i0=52" />
 						<LoopTunnel AutoIndex="True" Bounds="-5 147 13 10" Docking="Left" Id="45" Terminals="o0=34, i0=53" TunnelMode="0" />
 						<LoopTunnel AutoIndex="True" Bounds="546 282 13 10" Docking="Right" Id="46" Terminals="o0=39, i0=54" TunnelMode="0" />
-						<LeftShiftRegister Bounds="-5 212 13 10" Docking="Left" Id="47" RightRegister="48" Terminals="o0=37, i0=58" />
-						<RightShiftRegister Bounds="546 212 13 10" Docking="Right" Id="48" Terminals="33=38, 41=60" />
 						<LoopTunnel AutoIndex="True" Bounds="546 22 13 10" Docking="Right" Id="49" Terminals="o0=40, i0=70" TunnelMode="0" />
+						<LoopTunnel Bounds="-5 212 13 10" Docking="Left" Id="132" Terminals="o0=37, i0=58" />
+						<LoopTunnel AutoIndex="True" Bounds="546 212 13 10" Docking="Right" Id="138" Terminals="o0=135, i0=137" TunnelMode="0" />
 					</ForLoop>
 					<Wire Id="34" Joints="N(25:23)|(4,195) N(45:o0)|(68,195)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="35" Joints="N(26:23)|(4,230) N(44:o0)|(68,230)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="36" Joints="N(43:33)|(632,230) N(27:23)|(711,230)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Id="37" Joints="N(24:23)|(4,260) N(47:o0)|(68,260)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Id="38" Joints="N(48:33)|(632,260) N(28:23)|(711,260)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="37" Joints="N(24:23)|(4,260) N(132:o0)|(68,260)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="39" Joints="N(46:o0)|(632,330) N(29:23)|(711,330)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="40" Joints="N(49:o0)|(632,70) N(30:23)|(711,70)" xmlns="http://www.ni.com/PlatformFramework" />
+					<MergeErrors Bounds="655 255 30 20" Id="134" Terminals="error out=136, c0t0v=135" />
+					<Wire Id="135" Joints="N(138:o0)|(632,260) N(134:c0t0v)|(655,260)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="136" Joints="N(134:error out)|(685,260) N(28:23)|(711,260)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
 				<CaseStructure.Selector Bounds="-4 260 13 10" Docking="Left" Id="24" Terminals="21=75, 22=32, 23=37" />
 				<CaseStructure.Tunnel Bounds="-4 195 13 10" Docking="Left" Id="25" Terminals="21=15, 22, 23=34" />
 				<CaseStructure.Tunnel Bounds="-4 230 13 10" Docking="Left" Id="26" Terminals="21=16, 22=31, 23=35" />
 				<CaseStructure.Tunnel Bounds="716 230 13 10" Docking="Right" Id="27" Terminals="21=17, 22=31, 23=36" />
-				<CaseStructure.Tunnel Bounds="716 260 13 10" Docking="Right" Id="28" Terminals="21=77, 22=32, 23=38" />
+				<CaseStructure.Tunnel Bounds="716 260 13 10" Docking="Right" Id="28" Terminals="21=77, 22=32, 23=136" />
 				<CaseStructure.Tunnel Bounds="716 330 13 10" DefaultIfUnwired="True" Docking="Right" Id="29" Terminals="21=79, 22, 23=39" />
 				<CaseStructure.Tunnel Bounds="716 70 13 10" DefaultIfUnwired="True" Docking="Right" Id="30" Terminals="21=81, 22, 23=40" />
 			</CaseStructure>

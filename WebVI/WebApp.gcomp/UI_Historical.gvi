@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="3545543E9367AFAED148C2FC2DE7C70012909D3731348AF71F84F0B099576CCFBA2817BF9B9BCB5F909D9E0DF24FCA02F131729409BF8F0D50E89A88AE8ECD6D" Timestamp="1D4FF38A463AC3A" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="4230659161A07B6C99262F6C56BE02AE7DE989B8D60F5C260406133D3C9234A5C460BB6085FFDAA9B87DC59F4DBE44A4138C31400AFD3BBC4ACC13BFEC947855" Timestamp="1D504CD39CDDBCF" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -140,8 +140,6 @@
 						<LoopIteration Bounds="5 286 15 15" Id="47" />
 						<Wire Id="49" Joints="N(42:i0)|(6,185) N(109:L0)|(35,185)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="50" Joints="N(109:R0)|(75,185) N(41:39)|(404,185)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="51" Joints="N(44:i0)|(6,215) N(109:L3)|(35,215)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="53" Joints="N(109:R3)|(75,215) N(45:39)|(404,215)" xmlns="http://www.ni.com/PlatformFramework" />
 						<PropertyNode Bounds="95 35 64 65" HasErrorTerminals="False" Id="54" InstanceDataType="@7aa44e4b50104d92ab1de20f618ecbc8" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
 							<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 								<TypeDefinitionTarget TargetName="WebApp::NodeCommunication::AVGData.gtype" />
@@ -160,7 +158,7 @@
 						<Wire Id="62" Joints="N(56:outCluster)|(255,50) N(61:c0t0v)|(305,50)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="63" Joints="N(59:outCluster)|(255,75) h(10) v(-15) N(61:c1t0v)|(305,60)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="64" Joints="N(61:outArray)|(345,50) N(46:i0)|(404,50)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="35 180 40 40" Id="109" ResolveFailedHint="&quot;C:\\VIT\\RaspberryPI IndoorMonitoring\\WebVI\\IndoorMonitoring\\WebApp.gcomp\\NodeCommunication\\GetFileData.gvi&quot;" Signature="@75fc29d7d9804a1ca2c83bbea7366f4e" Target="WebApp::NodeCommunication::GetFileData.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="35 180 40 40" Id="109" ResolveFailedHint="&quot;C:\\VIT\\GitHub\\LabVIEWRaspberryPI_IndoorMonitoring\\WebVI\\WebApp.gcomp\\NodeCommunication\\GetFileData.gvi&quot;" Signature="@75fc29d7d9804a1ca2c83bbea7366f4e" Target="WebApp::NodeCommunication::GetFileData.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="client handle" />
@@ -182,20 +180,20 @@
 						</MethodCall>
 						<Wire Id="112" Joints="N(43:i0)|(6,150) h(5) v(45) N(109:L1)|(35,195)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="125" Joints="N(124:i0)|(6,245) h(23) v(-40) N(109:L2)|(35,205)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="149" Joints="N(148:i0)|(6,215) N(109:L3)|(35,215)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="150" Joints="N(109:R3)|(75,215) N(151:i0)|(404,215)" xmlns="http://www.ni.com/PlatformFramework" />
 						<LoopCount Bounds="1 1 15 15" Docking="Left" Id="40" Terminals="32, 39" />
 						<RightShiftRegister Bounds="406 182 13 10" Docking="Right" Id="41" Terminals="32=35, 39=50" />
 						<LeftShiftRegister Bounds="-5 182 13 10" Docking="Left" Id="42" RightRegister="41" Terminals="o0=34, i0=49" />
 						<LoopTunnel AutoIndex="True" Bounds="-5 147 13 10" Docking="Left" Id="43" Terminals="o0=33, i0=112" TunnelMode="0" />
-						<LeftShiftRegister Bounds="-5 212 13 10" Docking="Left" Id="44" RightRegister="45" Terminals="o0=36, i0=51" />
-						<RightShiftRegister Bounds="406 212 13 10" Docking="Right" Id="45" Terminals="32=37, 39=53" />
 						<LoopTunnel Bounds="406 47 13 10" Docking="Right" Id="46" Terminals="o0=131, i0=64" TunnelMode="1" />
 						<LoopTunnel AutoIndex="True" Bounds="-5 242 13 10" Docking="Left" Id="124" Terminals="o0=123, i0=125" TunnelMode="0" />
+						<LoopTunnel Bounds="-5 212 13 10" Docking="Left" Id="148" Terminals="o0=147, i0=149" />
+						<LoopTunnel AutoIndex="True" Bounds="406 212 13 10" Docking="Right" Id="151" Terminals="o0=154, i0=150" TunnelMode="0" />
 					</ForLoop>
 					<Wire Id="33" Joints="N(25:23)|(4,195) N(43:o0)|(68,195)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="34" Joints="N(26:23)|(4,230) N(42:o0)|(68,230)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="35" Joints="N(41:32)|(492,230) N(27:23)|(581,230)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Id="36" Joints="N(24:23)|(4,260) N(44:o0)|(68,260)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Id="37" Joints="N(45:32)|(492,260) N(28:23)|(581,260)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="123" Joints="N(122:23)|(4,290) N(124:o0)|(68,290)" xmlns="http://www.ni.com/PlatformFramework" />
 					<DeleteFromArray Bounds="525 90 40 40" Id="126" Terminals="inArray=131, length (1)=130, outArray=132, deleted=144, index0" />
 					<Literal Bounds="490 175 40 15" DataType="Int32" Id="128" Label="129" xmlns="http://www.ni.com/MocCommon">
@@ -209,12 +207,16 @@
 					<Wire Id="131" Joints="N(46:o0)|(492,95) N(126:inArray)|(525,95)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="132" Joints="N(126:outArray)|(565,95) N(29:23)|(581,95)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="144" Joints="N(126:deleted)|(565,115) N(145:23)|(581,115)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="147" Joints="N(24:23)|(4,260) N(148:o0)|(68,260)" xmlns="http://www.ni.com/PlatformFramework" />
+					<MergeErrors Bounds="525 255 30 20" Id="152" Terminals="error out=155, c0t0v=154" />
+					<Wire Id="154" Joints="N(151:o0)|(492,260) N(152:c0t0v)|(525,260)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="155" Joints="N(152:error out)|(555,260) N(28:23)|(581,260)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
-				<CaseStructure.Selector Bounds="-4 260 13 10" Docking="Left" Id="24" Terminals="21=66, 22=31, 23=36" />
+				<CaseStructure.Selector Bounds="-4 260 13 10" Docking="Left" Id="24" Terminals="21=66, 22=31, 23=147" />
 				<CaseStructure.Tunnel Bounds="-4 195 13 10" Docking="Left" Id="25" Terminals="21=15, 22, 23=33" />
 				<CaseStructure.Tunnel Bounds="-4 230 13 10" Docking="Left" Id="26" Terminals="21=16, 22=30, 23=34" />
 				<CaseStructure.Tunnel Bounds="586 230 13 10" Docking="Right" Id="27" Terminals="21=17, 22=30, 23=35" />
-				<CaseStructure.Tunnel Bounds="586 260 13 10" Docking="Right" Id="28" Terminals="21=68, 22=31, 23=37" />
+				<CaseStructure.Tunnel Bounds="586 260 13 10" Docking="Right" Id="28" Terminals="21=68, 22=31, 23=155" />
 				<CaseStructure.Tunnel Bounds="586 95 13 10" DefaultIfUnwired="True" Docking="Right" Id="29" Terminals="21=70, 22, 23=132" />
 				<CaseStructure.Tunnel Bounds="-4 290 13 10" Docking="Left" Id="122" Terminals="21=121, 22, 23=123" />
 				<CaseStructure.Tunnel Bounds="586 115 13 10" DefaultIfUnwired="True" Docking="Right" Id="145" Terminals="21=146, 22, 23=144" />

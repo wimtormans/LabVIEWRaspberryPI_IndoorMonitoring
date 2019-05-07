@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="EC72833DD1213F2CF19A927382270C604AF660BBD230B5E6865F0448CDF51627AC6E107B429420EB734613D523A303CCDA5562207E0D38E7A323AE037E234285" Timestamp="1D501EDCEE5F293" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="A172428FD12936E54F1D6EC28303751650B1DB789E03D6455E0D5CC5B30A5C2C08018EC0A021319EA11D205EB7704E9AB0B61B06B3FC650E81A04F397C0A5BDA" Timestamp="1D504CE4716C4BE" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -126,7 +126,7 @@
 						<DataAccessor Bounds="570 225 40 15" DataItem="1124" Id="1125" Label="1138" xmlns="http://www.ni.com/MocCommon">
 							<Terminal DataType="@8b6fd09786224778b20b2652385f3aee" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 						</DataAccessor>
-						<MethodCall Bounds="90 430 40 40" Id="1308" ResolveFailedHint="&quot;C:\\VIT\\RaspberryPI IndoorMonitoring\\WebVI\\IndoorMonitoring\\WebApp.gcomp\\UI_Actuals.gvi&quot;" Signature="@1152d68e965742e3aa317325428e9cdb" Target="WebApp::UI_Actuals.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="90 430 40 40" Id="1308" ResolveFailedHint="&quot;C:\\VIT\\GitHub\\LabVIEWRaspberryPI_IndoorMonitoring\\WebVI\\WebApp.gcomp\\UI_Actuals.gvi&quot;" Signature="@1152d68e965742e3aa317325428e9cdb" Target="WebApp::UI_Actuals.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="Input" />
@@ -146,7 +146,7 @@
 							<Terminal DataType="@6659660b97d54ac491e61a12cbf4307f" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
-						<MethodCall Bounds="495 430 40 40" Id="1317" ResolveFailedHint="&quot;C:\\VIT\\RaspberryPI IndoorMonitoring\\WebVI\\IndoorMonitoring\\WebApp.gcomp\\UI_Averaged.gvi&quot;" Signature="@10ef90bf0f404a928579f3097b9d7fde" Target="WebApp::UI_Averaged.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="495 430 40 40" Id="1317" ResolveFailedHint="&quot;C:\\VIT\\GitHub\\LabVIEWRaspberryPI_IndoorMonitoring\\WebVI\\WebApp.gcomp\\UI_Averaged.gvi&quot;" Signature="@10ef90bf0f404a928579f3097b9d7fde" Target="WebApp::UI_Averaged.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="Input" />
@@ -235,63 +235,35 @@
 								<Wire Id="1352" Joints="N(1351:1341)|(4,275) N(1353:1341)|(536,275)" xmlns="http://www.ni.com/PlatformFramework" />
 							</CaseStructure.Case>
 							<CaseStructure.Case Bounds="5 5 540 350" Id="1342" Pattern="1">
-								<Wire Id="1362" Joints="N(1351:1342)|(4,275) N(1573:o0)|(163,275)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="1363" Joints="N(1572:1364)|(392,275) N(1353:1342)|(536,275)" xmlns="http://www.ni.com/PlatformFramework" />
-								<ForLoop Bounds="168 183 221 141" DiagramId="1365" Id="1364">
-									<LoopIteration Bounds="5 111 15 15" Id="1367" />
-									<MethodCall Bounds="20 85 40 40" Id="1361" ResolveFailedHint="&quot;C:\\VIT\\RaspberryPI IndoorMonitoring\\WebVI\\IndoorMonitoring\\WebApp.gcomp\\NodeCommunication\\GetFileList.gvi&quot;" Signature="@a43a391029e04666946dec7edb43dd48" Target="WebApp::NodeCommunication::GetFileList.gvi" xmlns="http://www.ni.com/MocCommon">
-										<p.MethodDeclaration>
-											<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
-												<Parameter Id="L0" Desc="client handle" />
-												<Parameter Id="L1" Desc="BaseURL" />
-												<Parameter Id="R0" Desc="client handle out" />
-												<Parameter Id="R1" Desc="value" />
-												<Parameter Id="R3" Desc="error out" />
-											</MethodDeclaration>
-										</p.MethodDeclaration>
-										<Terminal DataType="@947d6c56ec454f9ca31adc474ee0cee1" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
-										<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
-										<Terminal DataType="@947d6c56ec454f9ca31adc474ee0cee1" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
-										<Terminal DataType="String[]" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
-										<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
-									</MethodCall>
-									<Wire Id="1566" Joints="N(1573:i0)|(6,90) N(1361:L0)|(20,90)" xmlns="http://www.ni.com/PlatformFramework" />
-									<Wire Id="1576" Joints="N(1361:R0)|(60,90) N(1572:1365)|(209,90)" xmlns="http://www.ni.com/PlatformFramework" />
-									<Wire Id="1578" Joints="N(1361:R3)|(60,120) N(1579:i0)|(209,120)" xmlns="http://www.ni.com/PlatformFramework" />
-									<Wire Id="1585" Joints="N(1584:i0)|(6,100) N(1361:L1)|(20,100)" xmlns="http://www.ni.com/PlatformFramework" />
-									<PropertyNode Bounds="100 20 98 60" Id="1334" InstanceDataType=":DotNet:NationalInstruments.Controls.Runtime.ListboxProxy, NationalInstruments.Controls.Runtime`Int32`Int32" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
-										<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
-											<TypeDefinitionTarget TargetName="NI::G Core::Color Picker::Color.gtype" />
-										</p.TypeDefinitionTargets>
-										<PropertyItemTerminal Action="Write" DataType="String[]" Hotspot="0 25" Id="c0t0v" Path="Items" PathElementMemberKinds="Property" Usage="Required" />
-										<PropertyItemTerminal Action="Write" DataType="Int32" Hotspot="0 40" Id="c1t0v" Path="Value" PathElementMemberKinds="Property" Usage="Required" />
-									</PropertyNode>
-									<Wire Id="1592" Joints="N(1591:i0)|(6,25) N(1334:instance in)|(100,25)" xmlns="http://www.ni.com/PlatformFramework" />
-									<Wire Id="1593" Joints="N(1361:R1)|(60,100) h(15) v(-55) N(1334:c0t0v)|(100,45)" xmlns="http://www.ni.com/PlatformFramework" />
-									<Literal Bounds="20 55 40 15" DataType="Int32" Id="1840" Label="1841" xmlns="http://www.ni.com/MocCommon">
-										<p.Data>0</p.Data>
-										<NumericBehavior Interpretation="Exact" ValueFormatter="LV:0" />
-									</Literal>
-									<NodeLabel AttachedTo="1840" Bounds="20 37 30 15" Id="1841" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
-										<p.Text>value</p.Text>
-									</NodeLabel>
-									<Wire Id="1842" Joints="N(1840:Out)|(60,60) N(1334:c1t0v)|(100,60)" xmlns="http://www.ni.com/PlatformFramework" />
-									<LoopCount Bounds="1 1 15 15" Docking="Left" Id="1366" Terminals="1364, 1365" />
-									<RightShiftRegister Bounds="211 87 13 10" Docking="Right" Id="1572" Terminals="1364=1363, 1365=1576" />
-									<LeftShiftRegister Bounds="-5 87 13 10" Docking="Left" Id="1573" RightRegister="1572" Terminals="o0=1362, i0=1566" />
-									<LoopTunnel Bounds="211 117 13 10" Docking="Right" Id="1579" Terminals="o0=1580, i0=1578" />
-									<LoopTunnel AutoIndex="True" Bounds="-5 97 13 10" Docking="Left" Id="1584" Terminals="o0=2732, i0=1585" TunnelMode="0" />
-									<LoopTunnel AutoIndex="True" Bounds="-5 22 13 10" Docking="Left" Id="1591" Terminals="o0=1590, i0=1592" TunnelMode="0" />
-								</ForLoop>
-								<Wire Id="1580" Joints="N(1579:o0)|(392,305) N(1581:1342)|(536,305)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="1590" Joints="N(1825:1342)|(4,210) N(1591:o0)|(163,210)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="2732" Joints="N(1346:1342)|(4,45) h(141) B(1) N(1348:1342)|(536,45) B(1) v(240) N(1584:o0)|(163,285)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="1363" Joints="N(2827:R0)|(240,275) N(1353:1342)|(536,275)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="1580" Joints="N(2827:R3)|(240,305) N(1581:1342)|(536,305)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="2732" Joints="N(1346:1342)|(4,45) h(141) B(1) N(1348:1342)|(536,45) B(1) v(240) N(2827:L1)|(200,285)" xmlns="http://www.ni.com/PlatformFramework" />
 								<Comment Bounds="185 95 195 15" Id="2822" xmlns="http://www.ni.com/MocCommon">
 									<p.Text>Update the file list of each node</p.Text>
 								</Comment>
+								<MethodCall Bounds="200 270 40 40" Id="2827" ResolveFailedHint="&quot;C:\\VIT\\GitHub\\LabVIEWRaspberryPI_IndoorMonitoring\\WebVI\\WebApp.gcomp\\UI_FileList.gvi&quot;" Signature="@0edc6f49fcb446d5b9842703b3d40561" Target="WebApp::UI_FileList.gvi" xmlns="http://www.ni.com/MocCommon">
+									<p.MethodDeclaration>
+										<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+											<Parameter Id="L0" Desc="Input" />
+											<Parameter Id="L1" Desc="Base URL" />
+											<Parameter Id="L3" Desc="Error" />
+											<Parameter Id="T0" Desc="ControlRefs" />
+											<Parameter Id="R0" Desc="Output" />
+											<Parameter Id="R3" Desc="Error out" />
+										</MethodDeclaration>
+									</p.MethodDeclaration>
+									<Terminal DataType="@947d6c56ec454f9ca31adc474ee0cee1" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="String[]" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="@411aa9155bac4b30b49b50a210ab1336" Direction="Input" Hotspot="15 0" Id="T0" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="@947d6c56ec454f9ca31adc474ee0cee1" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+								</MethodCall>
+								<Wire Id="2830" Joints="N(1351:1342)|(4,275) N(2827:L0)|(200,275)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="2832" Joints="N(1825:1342)|(4,210) h(211) N(2827:T0)|(215,270)" xmlns="http://www.ni.com/PlatformFramework" />
 							</CaseStructure.Case>
 							<CaseStructure.Case Bounds="5 5 540 350" Id="1950" Pattern="2, 3">
-								<MethodCall Bounds="55 270 40 40" Id="1951" ResolveFailedHint="&quot;C:\\VIT\\RaspberryPI IndoorMonitoring\\WebVI\\IndoorMonitoring\\WebApp.gcomp\\UI_HistoricalMinMax.gvi&quot;" Signature="@1f1a754288a94c2fa687a45ac17612a9" Target="WebApp::UI_HistoricalMinMax.gvi" xmlns="http://www.ni.com/MocCommon">
+								<MethodCall Bounds="55 270 40 40" Id="1951" ResolveFailedHint="&quot;C:\\VIT\\GitHub\\LabVIEWRaspberryPI_IndoorMonitoring\\WebVI\\WebApp.gcomp\\UI_HistoricalMinMax.gvi&quot;" Signature="@1f1a754288a94c2fa687a45ac17612a9" Target="WebApp::UI_HistoricalMinMax.gvi" xmlns="http://www.ni.com/MocCommon">
 									<p.MethodDeclaration>
 										<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 											<Parameter Id="L0" Desc="Input" />
@@ -398,10 +370,10 @@
 							<CaseStructure.Selector Bounds="-4 10 13 10" Docking="Left" Id="1343" Terminals="1340=1344, 1341, 1342, 1950" />
 							<CaseStructure.Tunnel Bounds="-4 45 13 10" Docking="Left" Id="1346" Terminals="1340=1345, 1341=1347, 1342=2732, 1950=1953" />
 							<CaseStructure.Tunnel Bounds="541 45 13 10" Docking="Right" Id="1348" Terminals="1340=1349, 1341=1347, 1342=2732, 1950=1953" />
-							<CaseStructure.Tunnel Bounds="-4 275 13 10" Docking="Left" Id="1351" Terminals="1340=1350, 1341=1352, 1342=1362, 1950=1952" />
+							<CaseStructure.Tunnel Bounds="-4 275 13 10" Docking="Left" Id="1351" Terminals="1340=1350, 1341=1352, 1342=2830, 1950=1952" />
 							<CaseStructure.Tunnel Bounds="541 275 13 10" Docking="Right" Id="1353" Terminals="1340=1354, 1341=1352, 1342=1363, 1950=1954" />
 							<CaseStructure.Tunnel Bounds="541 305 13 10" DefaultIfUnwired="True" Docking="Right" Id="1581" Terminals="1340=1582, 1341, 1342=1580, 1950=1956" />
-							<CaseStructure.Tunnel Bounds="-4 210 13 10" Docking="Left" Id="1825" Terminals="1340=1826, 1341, 1342=1590, 1950" />
+							<CaseStructure.Tunnel Bounds="-4 210 13 10" Docking="Left" Id="1825" Terminals="1340=1826, 1341, 1342=2832, 1950" />
 						</CaseStructure>
 						<Wire Id="1344" Joints="N(1337:c1t0v)|(92,170) N(1343:1340)|(106,170)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="1345" Joints="N(85:1336)|(2,205) N(1346:1340)|(106,205)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -447,7 +419,7 @@
 						<DataAccessor Bounds="565 280 40 15" DataItem="1881" Id="1882" Label="1883" xmlns="http://www.ni.com/MocCommon">
 							<Terminal DataType="@8b6fd09786224778b20b2652385f3aee" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 						</DataAccessor>
-						<MethodCall Bounds="250 430 40 40" Id="1906" ResolveFailedHint="&quot;C:\\VIT\\RaspberryPI IndoorMonitoring\\WebVI\\IndoorMonitoring\\WebApp.gcomp\\UI_Historical.gvi&quot;" Signature="@5ebc88e3e5e94c27a11389e3ed1e8294" Target="WebApp::UI_Historical.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="250 430 40 40" Id="1906" ResolveFailedHint="&quot;C:\\VIT\\GitHub\\LabVIEWRaspberryPI_IndoorMonitoring\\WebVI\\WebApp.gcomp\\UI_Historical.gvi&quot;" Signature="@5ebc88e3e5e94c27a11389e3ed1e8294" Target="WebApp::UI_Historical.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="Input" />
@@ -545,7 +517,7 @@
 				<ArrayBehavior ElementType="String" IndexEditorWidth="42" VisibleRows="2">
 					<p.DefaultElementValue>""</p.DefaultElementValue>
 				</ArrayBehavior>
-				<Literal Bounds="49.2 3.7 136 15" DataType="String" Id="74">
+				<Literal Bounds="48.8 20.8 136 15" DataType="String" Id="74">
 					<StringBehavior TextDisplayMode="Default" />
 				</Literal>
 			</ArrayLiteral>
@@ -618,11 +590,11 @@
 				<p.Text>File list ref for the 2 nodes</p.Text>
 			</Comment>
 		</BlockDiagram>
-		<HtmlFrontPanel Height="[float]500" Id="15" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]865" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
-			<HtmlTabControl BaseName="[string]Tab" Height="[float]496" Id="46" IncludeInCapture="[bool]False" Label="[UIModel]51" Left="[float]0" MinHeight="[float]55" MinWidth="[float]60" SelectedIndex="{DataItemBinding Id=44}" TabIndex="[int]0" TabStripPlacement="[Dock]Top" Top="[float]4" Width="[float]865" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+		<HtmlFrontPanel Height="[float]800" Id="15" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1200" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
+			<HtmlTabControl BaseName="[string]Tab" Height="[float]801" Id="46" IncludeInCapture="[bool]False" Label="[UIModel]51" Left="[float]0" MinHeight="[float]55" MinWidth="[float]60" SelectedIndex="{DataItemBinding Id=44}" TabIndex="[int]0" TabStripPlacement="[Dock]Top" Top="[float]0" Width="[float]1200" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<HtmlTabItem Header="[string]Actual Data" Id="926" Left="[float]0" Top="[float]0">
-					<HtmlLayoutPanel Height="[float]473" Id="927" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]23" Width="[float]865">
-						<HtmlCartesianGraph DataSource="{DataItemBinding Id=1124}" DataSourceType="[Type]@8b6fd09786224778b20b2652385f3aee" Height="[float]280" Id="1126" Label="[UIModel]1137" Left="[float]8" TabIndex="[int]0" Top="[float]189" Width="[float]408">
+					<HtmlLayoutPanel Height="[float]778" Id="927" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]23" Width="[float]1200">
+						<HtmlCartesianGraph DataSource="{DataItemBinding Id=1124}" DataSourceType="[Type]@8b6fd09786224778b20b2652385f3aee" Height="[float]358" Id="1126" Label="[UIModel]1137" Left="[float]180" TabIndex="[int]0" Top="[float]17" Width="[float]1020">
 							<HtmlAxis Adjuster="[RangeAdjuster]FitExactly" Id="1127" Label="[string]Time" MajorDivisions="[UIModel]1130" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double">
 								<HtmlRangeLabeledDivisions Id="1130">
 									<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm&quot;" />
@@ -645,12 +617,12 @@
 								<HtmlPlotRenderer Id="1142" LineStroke="[SMSolidColorBrush]#ff008ee4" />
 							</HtmlPlot>
 						</HtmlCartesianGraph>
-						<HtmlScaleLegend Graph="[UIModel]1126" Height="[float]70" Id="1133" Left="[float]423" MinWidth="[float]160" Top="[float]407" Visible="[bool]False" Width="[float]160" />
-						<HtmlPlotLegend Graph="[UIModel]1126" Height="[float]104" Id="1134" Left="[float]423" MinWidth="[float]160" Top="[float]189" Visible="[bool]False" Width="[float]160" />
-						<HtmlCursorLegend Graph="[UIModel]1126" Height="[float]200" Id="1135" Left="[float]8" MinWidth="[float]320" Top="[float]518" Visible="[bool]False" Width="[float]320" />
-						<HtmlGraphTools Graph="[UIModel]1126" Height="[float]35" Id="1136" Left="[float]8" Top="[float]476" Visible="[bool]False" Width="[float]168" />
-						<HtmlLabel Height="[float]16" Id="1137" LabelOwner="[UIModel]1126" Left="[float]8" Text="[string]AVG_Plot Node 1" Top="[float]169" Visible="[bool]False" Width="[float]97" />
-						<HtmlCartesianGraph DataSource="{DataItemBinding Id=2089}" DataSourceType="[Type]@8b6fd09786224778b20b2652385f3aee" Height="[float]280" Id="2073" Label="[UIModel]2088" Left="[float]449" TabIndex="[int]1" Top="[float]189" Width="[float]408">
+						<HtmlScaleLegend Graph="[UIModel]1126" Height="[float]70" Id="1133" Left="[float]1207" MinWidth="[float]160" Top="[float]313" Visible="[bool]False" Width="[float]160" />
+						<HtmlPlotLegend Graph="[UIModel]1126" Height="[float]104" Id="1134" Left="[float]1207" MinWidth="[float]160" Top="[float]17" Visible="[bool]False" Width="[float]160" />
+						<HtmlCursorLegend Graph="[UIModel]1126" Height="[float]200" Id="1135" Left="[float]180" MinWidth="[float]320" Top="[float]424" Visible="[bool]False" Width="[float]320" />
+						<HtmlGraphTools Graph="[UIModel]1126" Height="[float]35" Id="1136" Left="[float]180" Top="[float]382" Visible="[bool]False" Width="[float]168" />
+						<HtmlLabel Height="[float]16" Id="1137" LabelOwner="[UIModel]1126" Left="[float]180" Text="[string]AVG_Plot Node 1" Top="[float]-3" Visible="[bool]False" Width="[float]97" />
+						<HtmlCartesianGraph DataSource="{DataItemBinding Id=2089}" DataSourceType="[Type]@8b6fd09786224778b20b2652385f3aee" Height="[float]358" Id="2073" Label="[UIModel]2088" Left="[float]180" TabIndex="[int]1" Top="[float]397" Width="[float]1020">
 							<HtmlAxis Adjuster="[RangeAdjuster]FitExactly" Id="2074" Label="[string]Time" MajorDivisions="[UIModel]2079" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double">
 								<HtmlRangeLabeledDivisions Id="2079">
 									<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm&quot;" />
@@ -673,40 +645,40 @@
 								<HtmlPlotRenderer Id="2083" LineStroke="[SMSolidColorBrush]#ff008ee4" />
 							</HtmlPlot>
 						</HtmlCartesianGraph>
-						<HtmlScaleLegend Graph="[UIModel]2073" Height="[float]70" Id="2084" Left="[float]864" MinWidth="[float]160" Top="[float]407" Visible="[bool]False" Width="[float]160" />
-						<HtmlPlotLegend Graph="[UIModel]2073" Height="[float]104" Id="2085" Left="[float]864" MinWidth="[float]160" Top="[float]189" Visible="[bool]False" Width="[float]160" />
-						<HtmlCursorLegend Graph="[UIModel]2073" Height="[float]200" Id="2086" Left="[float]449" MinWidth="[float]320" Top="[float]518" Visible="[bool]False" Width="[float]320" />
-						<HtmlGraphTools Graph="[UIModel]2073" Height="[float]35" Id="2087" Left="[float]449" Top="[float]476" Visible="[bool]False" Width="[float]168" />
-						<HtmlLabel Height="[float]16" Id="2088" LabelOwner="[UIModel]2073" Left="[float]449" Text="[string]AVG_Plot Node 2" Top="[float]169" Visible="[bool]False" Width="[float]97" />
-						<HtmlGauge AnalogDisplayType="[AnalogDisplayType]Fill" BaseName="[string]Gauge" DigitalDisplayPosition="[DigitalDisplayPosition]Center" DigitalDisplayVisible="[bool]True" Height="[float]172" Id="1011" InteractionMode="[NumericPointerInteractionModes]EditRange" Label="[UIModel]1012" LabelPresenter="[string]LV:G3" Left="[float]12" MajorRangeDivisionsMode="[RangeDivisionsMode]Count: 2" MajorTickVisibility="[SMVisibility]Visible" Maximum="[double]50" MinHeight="[float]125" MinWidth="[float]125" MinorTickVisibility="[SMVisibility]Visible" RangeLabelsVisibility="[SMVisibility]Visible" ScaleVisibility="[SMVisibility]Visible" TabIndex="[int]2" Top="[float]15" Value="{DataItemBinding Id=1009}" Width="[float]172" />
-						<HtmlGauge AnalogDisplayType="[AnalogDisplayType]Fill" BaseName="[string]Gauge" DigitalDisplayPosition="[DigitalDisplayPosition]Center" DigitalDisplayVisible="[bool]True" Height="[float]172" Id="1024" InteractionMode="[NumericPointerInteractionModes]EditRange" Interval="[double]1" Label="[UIModel]1025" LabelPresenter="[string]LV:G3" Left="[float]240" MajorRangeDivisionsMode="[RangeDivisionsMode]Count: 2" MajorTickVisibility="[SMVisibility]Visible" Maximum="[double]100" MinHeight="[float]125" MinWidth="[float]125" MinorTickVisibility="[SMVisibility]Visible" RangeLabelsVisibility="[SMVisibility]Visible" ScaleVisibility="[SMVisibility]Visible" TabIndex="[int]3" Top="[float]15" Value="{DataItemBinding Id=1026}" ValueType="[Type]Double" Width="[float]172" />
-						<HtmlGauge AnalogDisplayType="[AnalogDisplayType]Fill" BaseName="[string]Gauge" DigitalDisplayPosition="[DigitalDisplayPosition]Center" DigitalDisplayVisible="[bool]True" Height="[float]172" Id="1029" InteractionMode="[NumericPointerInteractionModes]EditRange" Label="[UIModel]1030" LabelPresenter="[string]LV:G3" Left="[float]453" MajorRangeDivisionsMode="[RangeDivisionsMode]Count: 2" MajorTickVisibility="[SMVisibility]Visible" Maximum="[double]50" MinHeight="[float]125" MinWidth="[float]125" MinorTickVisibility="[SMVisibility]Visible" RangeLabelsVisibility="[SMVisibility]Visible" ScaleVisibility="[SMVisibility]Visible" TabIndex="[int]4" Top="[float]15" Value="{DataItemBinding Id=1031}" Width="[float]172" />
-						<HtmlGauge AnalogDisplayType="[AnalogDisplayType]Fill" BaseName="[string]Gauge" DigitalDisplayPosition="[DigitalDisplayPosition]Center" DigitalDisplayVisible="[bool]True" Height="[float]172" Id="1034" InteractionMode="[NumericPointerInteractionModes]EditRange" Label="[UIModel]1035" LabelPresenter="[string]LV:G3" Left="[float]681" MajorRangeDivisionsMode="[RangeDivisionsMode]Count: 2" MajorTickVisibility="[SMVisibility]Visible" Maximum="[double]100" MinHeight="[float]125" MinWidth="[float]125" MinorTickVisibility="[SMVisibility]Visible" RangeLabelsVisibility="[SMVisibility]Visible" ScaleVisibility="[SMVisibility]Visible" TabIndex="[int]5" Top="[float]15" Value="{DataItemBinding Id=1036}" Width="[float]172" />
-						<HtmlLabel Height="[float]16" Id="1012" LabelAlignment="[PartAlignment]TopCenter" LabelOwner="[UIModel]1011" Left="[float]62" Text="[string]Node 1 Temp" Top="[float]-5" Visible="[bool]False" Width="[float]78" />
-						<HtmlLabel Height="[float]16" Id="1025" LabelAlignment="[PartAlignment]TopCenter" LabelOwner="[UIModel]1024" Left="[float]297" Text="[string]Node 1 RH" Top="[float]-5" Visible="[bool]False" Width="[float]65" />
-						<HtmlLabel Height="[float]16" Id="1030" LabelAlignment="[PartAlignment]TopCenter" LabelOwner="[UIModel]1029" Left="[float]503" Text="[string]Node 2 Temp" Top="[float]-5" Visible="[bool]False" Width="[float]78" />
-						<HtmlLabel Height="[float]16" Id="1035" LabelAlignment="[PartAlignment]TopCenter" LabelOwner="[UIModel]1034" Left="[float]738" Text="[string]Node 2 RH" Top="[float]-5" Visible="[bool]False" Width="[float]65" />
-						<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="1068" IsReadOnly="[bool]True" Label="[UIModel]1069" Left="[float]8" MinHeight="[float]20" MinWidth="[float]20" TabIndex="[int]6" Text="{DataItemBinding Id=1066}" TextAlignment="[TextAlignment]Center" Top="[float]166" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]408" />
-						<HtmlLabel Height="[float]16" Id="1069" LabelOwner="[UIModel]1068" Left="[float]8" Text="[string]String Info Node 1" Top="[float]146" Visible="[bool]False" Width="[float]104" />
-						<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="1071" IsReadOnly="[bool]True" Label="[UIModel]1072" Left="[float]449" MinHeight="[float]20" MinWidth="[float]20" TabIndex="[int]7" Text="{DataItemBinding Id=1073}" TextAlignment="[TextAlignment]Center" Top="[float]166" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]408" />
-						<HtmlLabel Height="[float]16" Id="1072" LabelOwner="[UIModel]1071" Left="[float]449" Text="[string]String Info " Top="[float]146" Visible="[bool]False" Width="[float]65" />
-						<HtmlText BaseName="[string]Text" Height="[float]16" Id="2817" Left="[float]80" MinHeight="[float]11" MinWidth="[float]11" Text="[string]TEMP" TextWrapping="[TextWrapping]Wrap" Top="[float]136" Width="[float]37" />
-						<HtmlText BaseName="[string]Text" Height="[float]16" Id="2818" Left="[float]521" MinHeight="[float]11" MinWidth="[float]11" Text="[string]TEMP" TextWrapping="[TextWrapping]Wrap" Top="[float]136" Width="[float]37" />
-						<HtmlText BaseName="[string]Text" Height="[float]16" Id="2819" Left="[float]315" MinHeight="[float]11" MinWidth="[float]11" Text="[string]RH" TextWrapping="[TextWrapping]Wrap" Top="[float]136" Width="[float]23" />
-						<HtmlText BaseName="[string]Text" Height="[float]16" Id="2820" Left="[float]756" MinHeight="[float]11" MinWidth="[float]11" Text="[string]RH" TextWrapping="[TextWrapping]Wrap" Top="[float]136" Width="[float]23" />
+						<HtmlScaleLegend Graph="[UIModel]2073" Height="[float]70" Id="2084" Left="[float]1207" MinWidth="[float]160" Top="[float]693" Visible="[bool]False" Width="[float]160" />
+						<HtmlPlotLegend Graph="[UIModel]2073" Height="[float]104" Id="2085" Left="[float]1207" MinWidth="[float]160" Top="[float]397" Visible="[bool]False" Width="[float]160" />
+						<HtmlCursorLegend Graph="[UIModel]2073" Height="[float]200" Id="2086" Left="[float]180" MinWidth="[float]320" Top="[float]804" Visible="[bool]False" Width="[float]320" />
+						<HtmlGraphTools Graph="[UIModel]2073" Height="[float]35" Id="2087" Left="[float]180" Top="[float]762" Visible="[bool]False" Width="[float]168" />
+						<HtmlLabel Height="[float]16" Id="2088" LabelOwner="[UIModel]2073" Left="[float]180" Text="[string]AVG_Plot Node 2" Top="[float]377" Visible="[bool]False" Width="[float]97" />
+						<HtmlGauge AnalogDisplayType="[AnalogDisplayType]Fill" BaseName="[string]Gauge" DigitalDisplayPosition="[DigitalDisplayPosition]Center" DigitalDisplayVisible="[bool]True" Height="[float]172" Id="1011" InteractionMode="[NumericPointerInteractionModes]EditRange" Label="[UIModel]1012" LabelPresenter="[string]LV:G3" Left="[float]4" MajorRangeDivisionsMode="[RangeDivisionsMode]Count: 2" MajorTickVisibility="[SMVisibility]Visible" Maximum="[double]50" MinHeight="[float]125" MinWidth="[float]125" MinorTickVisibility="[SMVisibility]Visible" RangeLabelsVisibility="[SMVisibility]Visible" ScaleVisibility="[SMVisibility]Visible" TabIndex="[int]2" Top="[float]21" Value="{DataItemBinding Id=1009}" Width="[float]172" />
+						<HtmlGauge AnalogDisplayType="[AnalogDisplayType]Fill" BaseName="[string]Gauge" DigitalDisplayPosition="[DigitalDisplayPosition]Center" DigitalDisplayVisible="[bool]True" Height="[float]172" Id="1024" InteractionMode="[NumericPointerInteractionModes]EditRange" Interval="[double]1" Label="[UIModel]1025" LabelPresenter="[string]LV:G3" Left="[float]4" MajorRangeDivisionsMode="[RangeDivisionsMode]Count: 2" MajorTickVisibility="[SMVisibility]Visible" Maximum="[double]100" MinHeight="[float]125" MinWidth="[float]125" MinorTickVisibility="[SMVisibility]Visible" RangeLabelsVisibility="[SMVisibility]Visible" ScaleVisibility="[SMVisibility]Visible" TabIndex="[int]3" Top="[float]181" Value="{DataItemBinding Id=1026}" ValueType="[Type]Double" Width="[float]172" />
+						<HtmlGauge AnalogDisplayType="[AnalogDisplayType]Fill" BaseName="[string]Gauge" DigitalDisplayPosition="[DigitalDisplayPosition]Center" DigitalDisplayVisible="[bool]True" Height="[float]172" Id="1029" InteractionMode="[NumericPointerInteractionModes]EditRange" Label="[UIModel]1030" LabelPresenter="[string]LV:G3" Left="[float]4" MajorRangeDivisionsMode="[RangeDivisionsMode]Count: 2" MajorTickVisibility="[SMVisibility]Visible" Maximum="[double]50" MinHeight="[float]125" MinWidth="[float]125" MinorTickVisibility="[SMVisibility]Visible" RangeLabelsVisibility="[SMVisibility]Visible" ScaleVisibility="[SMVisibility]Visible" TabIndex="[int]4" Top="[float]402" Value="{DataItemBinding Id=1031}" Width="[float]172" />
+						<HtmlGauge AnalogDisplayType="[AnalogDisplayType]Fill" BaseName="[string]Gauge" DigitalDisplayPosition="[DigitalDisplayPosition]Center" DigitalDisplayVisible="[bool]True" Height="[float]172" Id="1034" InteractionMode="[NumericPointerInteractionModes]EditRange" Label="[UIModel]1035" LabelPresenter="[string]LV:G3" Left="[float]4" MajorRangeDivisionsMode="[RangeDivisionsMode]Count: 2" MajorTickVisibility="[SMVisibility]Visible" Maximum="[double]100" MinHeight="[float]125" MinWidth="[float]125" MinorTickVisibility="[SMVisibility]Visible" RangeLabelsVisibility="[SMVisibility]Visible" ScaleVisibility="[SMVisibility]Visible" TabIndex="[int]5" Top="[float]569" Value="{DataItemBinding Id=1036}" Width="[float]172" />
+						<HtmlLabel Height="[float]16" Id="1012" LabelAlignment="[PartAlignment]TopCenter" LabelOwner="[UIModel]1011" Left="[float]54" Text="[string]Node 1 Temp" Top="[float]1" Visible="[bool]False" Width="[float]78" />
+						<HtmlLabel Height="[float]16" Id="1025" LabelAlignment="[PartAlignment]TopCenter" LabelOwner="[UIModel]1024" Left="[float]61" Text="[string]Node 1 RH" Top="[float]161" Visible="[bool]False" Width="[float]65" />
+						<HtmlLabel Height="[float]16" Id="1030" LabelAlignment="[PartAlignment]TopCenter" LabelOwner="[UIModel]1029" Left="[float]54" Text="[string]Node 2 Temp" Top="[float]382" Visible="[bool]False" Width="[float]78" />
+						<HtmlLabel Height="[float]16" Id="1035" LabelAlignment="[PartAlignment]TopCenter" LabelOwner="[UIModel]1034" Left="[float]61" Text="[string]Node 2 RH" Top="[float]549" Visible="[bool]False" Width="[float]65" />
+						<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="1068" IsReadOnly="[bool]True" Label="[UIModel]1069" Left="[float]180" MinHeight="[float]20" MinWidth="[float]20" TabIndex="[int]6" Text="{DataItemBinding Id=1066}" TextAlignment="[TextAlignment]Center" Top="[float]374" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]1020" />
+						<HtmlLabel Height="[float]16" Id="1069" LabelOwner="[UIModel]1068" Left="[float]180" Text="[string]String Info Node 1" Top="[float]354" Visible="[bool]False" Width="[float]104" />
+						<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="1071" IsReadOnly="[bool]True" Label="[UIModel]1072" Left="[float]180" MinHeight="[float]20" MinWidth="[float]20" TabIndex="[int]7" Text="{DataItemBinding Id=1073}" TextAlignment="[TextAlignment]Center" Top="[float]754" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]1020" />
+						<HtmlLabel Height="[float]16" Id="1072" LabelOwner="[UIModel]1071" Left="[float]180" Text="[string]String Info " Top="[float]734" Visible="[bool]False" Width="[float]65" />
+						<HtmlText BaseName="[string]Text" Height="[float]16" Id="2817" Left="[float]72" MinHeight="[float]11" MinWidth="[float]11" Text="[string]TEMP" TextWrapping="[TextWrapping]Wrap" Top="[float]142" Width="[float]37" />
+						<HtmlText BaseName="[string]Text" Height="[float]16" Id="2818" Left="[float]72" MinHeight="[float]11" MinWidth="[float]11" Text="[string]TEMP" TextWrapping="[TextWrapping]Wrap" Top="[float]523" Width="[float]37" />
+						<HtmlText BaseName="[string]Text" Height="[float]16" Id="2819" Left="[float]79" MinHeight="[float]11" MinWidth="[float]11" Text="[string]RH" TextWrapping="[TextWrapping]Wrap" Top="[float]302" Width="[float]23" />
+						<HtmlText BaseName="[string]Text" Height="[float]16" Id="2820" Left="[float]79" MinHeight="[float]11" MinWidth="[float]11" Text="[string]RH" TextWrapping="[TextWrapping]Wrap" Top="[float]692" Width="[float]23" />
 					</HtmlLayoutPanel>
 				</HtmlTabItem>
 				<HtmlTabItem Header="[string]Historical Data" Id="1326" Left="[float]0" Top="[float]0">
-					<HtmlLayoutPanel Height="[float]473" Id="1327" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]23" Width="[float]865">
-						<HtmlListBox BaseName="[string]Listbox" Height="[float]227" Id="1330" Label="[UIModel]1331" Left="[float]18" MinHeight="[float]40" MinWidth="[float]50" SelectionMode="[ListBoxSelectionMode]One" TabIndex="[int]0" Top="[float]9" Value="{DataItemBinding Id=1328}" ValueType="[Type]Int32" Width="[float]120">
+					<HtmlLayoutPanel Height="[float]778" Id="1327" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]23" Width="[float]1200">
+						<HtmlListBox BaseName="[string]Listbox" Height="[float]370" Id="1330" Label="[UIModel]1331" Left="[float]0" MinHeight="[float]40" MinWidth="[float]50" SelectionMode="[ListBoxSelectionMode]One" TabIndex="[int]0" Top="[float]13" Value="{DataItemBinding Id=1328}" ValueType="[Type]Int32" Width="[float]120">
 							<ListBoxSelectorInfo DisplayValue="[string]" IsEnabled="[bool]True" Value="[int]0" ValueType="[Type]Int32" />
 						</HtmlListBox>
-						<HtmlLabel Height="[float]16" Id="1331" LabelOwner="[UIModel]1330" Left="[float]18" Text="[string]Node 1 Files" Top="[float]-11" Visible="[bool]False" Width="[float]72" />
-						<HtmlListBox BaseName="[string]Listbox" Height="[float]227" Id="1355" Label="[UIModel]1356" Left="[float]18" MinHeight="[float]40" MinWidth="[float]50" SelectionMode="[ListBoxSelectionMode]One" TabIndex="[int]1" Top="[float]241" Value="{DataItemBinding Id=1357}" ValueType="[Type]Int32" Width="[float]120">
+						<HtmlLabel Height="[float]16" Id="1331" LabelOwner="[UIModel]1330" Left="[float]0" Text="[string]Node 1 Files" Top="[float]-7" Visible="[bool]False" Width="[float]72" />
+						<HtmlListBox BaseName="[string]Listbox" Height="[float]370" Id="1355" Label="[UIModel]1356" Left="[float]0" MinHeight="[float]40" MinWidth="[float]50" SelectionMode="[ListBoxSelectionMode]One" TabIndex="[int]1" Top="[float]381" Value="{DataItemBinding Id=1357}" ValueType="[Type]Int32" Width="[float]120">
 							<ListBoxSelectorInfo DisplayValue="[string]" IsEnabled="[bool]True" Value="[int]0" ValueType="[Type]Int32" />
 						</HtmlListBox>
-						<HtmlLabel Height="[float]16" Id="1356" LabelOwner="[UIModel]1355" Left="[float]18" Text="[string]Node 2 Files" Top="[float]221" Visible="[bool]False" Width="[float]72" />
-						<HtmlCartesianGraph DataSource="{DataItemBinding Id=1881}" DataSourceType="[Type]@8b6fd09786224778b20b2652385f3aee" Height="[float]227" Id="1861" Label="[UIModel]1880" Left="[float]137" TabIndex="[int]2" Top="[float]9" Width="[float]720">
+						<HtmlLabel Height="[float]16" Id="1356" LabelOwner="[UIModel]1355" Left="[float]0" Text="[string]Node 2 Files" Top="[float]361" Visible="[bool]False" Width="[float]72" />
+						<HtmlCartesianGraph DataSource="{DataItemBinding Id=1881}" DataSourceType="[Type]@8b6fd09786224778b20b2652385f3aee" Height="[float]369" Id="1861" Label="[UIModel]1880" Left="[float]119" TabIndex="[int]2" Top="[float]13" Width="[float]1081">
 							<HtmlAxis Adjuster="[RangeAdjuster]FitExactly" Id="1862" Label="[string]Time Node 1" MajorDivisions="[UIModel]1869" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double">
 								<HtmlRangeLabeledDivisions Id="1869">
 									<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm&quot;" />
@@ -735,12 +707,12 @@
 								<HtmlPlotRenderer Id="2064" LineStroke="[SMSolidColorBrush]#ff00a4e5" />
 							</HtmlPlot>
 						</HtmlCartesianGraph>
-						<HtmlScaleLegend Graph="[UIModel]1861" Height="[float]70" Id="1876" Left="[float]864" MinWidth="[float]160" Top="[float]174" Visible="[bool]False" Width="[float]160" />
-						<HtmlPlotLegend Graph="[UIModel]1861" Height="[float]104" Id="1877" Left="[float]864" MinWidth="[float]160" Top="[float]9" Visible="[bool]False" Width="[float]160" />
-						<HtmlCursorLegend Graph="[UIModel]1861" Height="[float]200" Id="1878" Left="[float]137" MinWidth="[float]320" Top="[float]285" Visible="[bool]False" Width="[float]320" />
-						<HtmlGraphTools Graph="[UIModel]1861" Height="[float]35" Id="1879" Left="[float]137" Top="[float]243" Visible="[bool]False" Width="[float]168" />
-						<HtmlLabel Height="[float]16" Id="1880" LabelOwner="[UIModel]1861" Left="[float]137" Text="[string]File Data Node 1" Top="[float]-11" Visible="[bool]False" Width="[float]95" />
-						<HtmlCartesianGraph DataSource="{DataItemBinding Id=2773}" DataSourceType="[Type]@8b6fd09786224778b20b2652385f3aee" Height="[float]227" Id="2753" Label="[UIModel]2772" Left="[float]137" TabIndex="[int]3" Top="[float]241" Width="[float]720">
+						<HtmlScaleLegend Graph="[UIModel]1861" Height="[float]70" Id="1876" Left="[float]1207" MinWidth="[float]160" Top="[float]320" Visible="[bool]False" Width="[float]160" />
+						<HtmlPlotLegend Graph="[UIModel]1861" Height="[float]104" Id="1877" Left="[float]1207" MinWidth="[float]160" Top="[float]13" Visible="[bool]False" Width="[float]160" />
+						<HtmlCursorLegend Graph="[UIModel]1861" Height="[float]200" Id="1878" Left="[float]119" MinWidth="[float]320" Top="[float]431" Visible="[bool]False" Width="[float]320" />
+						<HtmlGraphTools Graph="[UIModel]1861" Height="[float]35" Id="1879" Left="[float]119" Top="[float]389" Visible="[bool]False" Width="[float]168" />
+						<HtmlLabel Height="[float]16" Id="1880" LabelOwner="[UIModel]1861" Left="[float]119" Text="[string]File Data Node 1" Top="[float]-7" Visible="[bool]False" Width="[float]95" />
+						<HtmlCartesianGraph DataSource="{DataItemBinding Id=2773}" DataSourceType="[Type]@8b6fd09786224778b20b2652385f3aee" Height="[float]370" Id="2753" Label="[UIModel]2772" Left="[float]119" TabIndex="[int]3" Top="[float]381" Width="[float]1081">
 							<HtmlAxis Adjuster="[RangeAdjuster]FitExactly" Id="2754" Label="[string]Time Node 2" MajorDivisions="[UIModel]2761" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double">
 								<HtmlRangeLabeledDivisions Id="2761">
 									<p.LabelPresenter Kind="LVTime" Format="&quot;HH\\:mm&quot;" />
@@ -769,17 +741,17 @@
 								<HtmlPlotRenderer Id="2767" LineStroke="[SMSolidColorBrush]#ff00a4e5" />
 							</HtmlPlot>
 						</HtmlCartesianGraph>
-						<HtmlScaleLegend Graph="[UIModel]2753" Height="[float]70" Id="2768" Left="[float]864" MinWidth="[float]160" Top="[float]406" Visible="[bool]False" Width="[float]160" />
-						<HtmlPlotLegend Graph="[UIModel]2753" Height="[float]104" Id="2769" Left="[float]864" MinWidth="[float]160" Top="[float]241" Visible="[bool]False" Width="[float]160" />
-						<HtmlCursorLegend Graph="[UIModel]2753" Height="[float]200" Id="2770" Left="[float]137" MinWidth="[float]320" Top="[float]517" Visible="[bool]False" Width="[float]320" />
-						<HtmlGraphTools Graph="[UIModel]2753" Height="[float]35" Id="2771" Left="[float]137" Top="[float]475" Visible="[bool]False" Width="[float]168" />
-						<HtmlLabel Height="[float]16" Id="2772" LabelOwner="[UIModel]2753" Left="[float]137" Text="[string]File Data Node 2" Top="[float]221" Visible="[bool]False" Width="[float]95" />
+						<HtmlScaleLegend Graph="[UIModel]2753" Height="[float]70" Id="2768" Left="[float]1207" MinWidth="[float]160" Top="[float]689" Visible="[bool]False" Width="[float]160" />
+						<HtmlPlotLegend Graph="[UIModel]2753" Height="[float]104" Id="2769" Left="[float]1207" MinWidth="[float]160" Top="[float]381" Visible="[bool]False" Width="[float]160" />
+						<HtmlCursorLegend Graph="[UIModel]2753" Height="[float]200" Id="2770" Left="[float]119" MinWidth="[float]320" Top="[float]800" Visible="[bool]False" Width="[float]320" />
+						<HtmlGraphTools Graph="[UIModel]2753" Height="[float]35" Id="2771" Left="[float]119" Top="[float]758" Visible="[bool]False" Width="[float]168" />
+						<HtmlLabel Height="[float]16" Id="2772" LabelOwner="[UIModel]2753" Left="[float]119" Text="[string]File Data Node 2" Top="[float]361" Visible="[bool]False" Width="[float]95" />
 					</HtmlLayoutPanel>
 				</HtmlTabItem>
 				<HtmlTabItem Header="[string]Historical Min Max Temperature" Id="1917" Left="[float]0" Top="[float]0">
-					<HtmlLayoutPanel Height="[float]473" Id="1918" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]23" Width="[float]865">
-						<HtmlCartesianGraph DataSource="{DataItemBinding Id=1939}" DataSourceType="[Type]@8b6fd09786224778b20b2652385f3aee" Height="[float]227" Id="1919" Label="[UIModel]1938" Left="[float]16" TabIndex="[int]0" Top="[float]11" Width="[float]835">
-							<HtmlAxis Adjuster="[RangeAdjuster]FitExactly" Id="1920" Label="[string]Time Node 1" MajorDivisions="[UIModel]1927" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double">
+					<HtmlLayoutPanel Height="[float]778" Id="1918" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]23" Width="[float]1200">
+						<HtmlCartesianGraph DataSource="{DataItemBinding Id=1939}" DataSourceType="[Type]@8b6fd09786224778b20b2652385f3aee" Height="[float]360" Id="1919" Label="[UIModel]1938" Left="[float]0" TabIndex="[int]0" Top="[float]13" Width="[float]1200">
+							<HtmlAxis Adjuster="[RangeAdjuster]FitExactly" Id="1920" Label="[string]Time" MajorDivisions="[UIModel]1927" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double">
 								<HtmlRangeLabeledDivisions Id="1927">
 									<p.LabelPresenter Kind="LVTime" Format="#d" FractionalSeconds="0" />
 								</HtmlRangeLabeledDivisions>
@@ -796,13 +768,13 @@
 								<HtmlPlotRenderer Id="1931" LineStroke="[SMSolidColorBrush]#ffee1c25" />
 							</HtmlPlot>
 						</HtmlCartesianGraph>
-						<HtmlScaleLegend Graph="[UIModel]1919" Height="[float]70" Id="1934" Left="[float]858" MinWidth="[float]160" Top="[float]176" Visible="[bool]False" Width="[float]160" />
-						<HtmlPlotLegend Graph="[UIModel]1919" Height="[float]182" Id="1935" Left="[float]858" MinWidth="[float]160" Top="[float]11" Visible="[bool]False" Width="[float]160" />
-						<HtmlCursorLegend Graph="[UIModel]1919" Height="[float]200" Id="1936" Left="[float]16" MinWidth="[float]320" Top="[float]287" Visible="[bool]False" Width="[float]320" />
-						<HtmlGraphTools Graph="[UIModel]1919" Height="[float]35" Id="1937" Left="[float]16" Top="[float]245" Visible="[bool]False" Width="[float]168" />
-						<HtmlLabel Height="[float]16" Id="1938" LabelOwner="[UIModel]1919" Left="[float]16" Text="[string]T HistMinMax node 1" Top="[float]-9" Visible="[bool]False" Width="[float]120" />
-						<HtmlCartesianGraph DataSource="{DataItemBinding Id=2107}" DataSourceType="[Type]@8b6fd09786224778b20b2652385f3aee" Height="[float]227" Id="2093" Label="[UIModel]2106" Left="[float]16" TabIndex="[int]1" Top="[float]239" Width="[float]835">
-							<HtmlAxis Adjuster="[RangeAdjuster]FitExactly" Id="2094" Label="[string]Time Node 2" MajorDivisions="[UIModel]2098" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double">
+						<HtmlScaleLegend Graph="[UIModel]1919" Height="[float]70" Id="1934" Left="[float]1207" MinWidth="[float]160" Top="[float]311" Visible="[bool]False" Width="[float]160" />
+						<HtmlPlotLegend Graph="[UIModel]1919" Height="[float]182" Id="1935" Left="[float]1207" MinWidth="[float]160" Top="[float]13" Visible="[bool]False" Width="[float]160" />
+						<HtmlCursorLegend Graph="[UIModel]1919" Height="[float]200" Id="1936" Left="[float]0" MinWidth="[float]320" Top="[float]422" Visible="[bool]False" Width="[float]320" />
+						<HtmlGraphTools Graph="[UIModel]1919" Height="[float]35" Id="1937" Left="[float]0" Top="[float]380" Visible="[bool]False" Width="[float]168" />
+						<HtmlLabel Height="[float]16" Id="1938" LabelOwner="[UIModel]1919" Left="[float]0" Text="[string]T HistMinMax node 1" Top="[float]-7" Visible="[bool]False" Width="[float]120" />
+						<HtmlCartesianGraph DataSource="{DataItemBinding Id=2107}" DataSourceType="[Type]@8b6fd09786224778b20b2652385f3aee" Height="[float]360" Id="2093" Label="[UIModel]2106" Left="[float]0" TabIndex="[int]1" Top="[float]395" Width="[float]1200">
+							<HtmlAxis Adjuster="[RangeAdjuster]FitExactly" Id="2094" Label="[string]Time" MajorDivisions="[UIModel]2098" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double">
 								<HtmlRangeLabeledDivisions Id="2098">
 									<p.LabelPresenter Kind="LVTime" Format="#d" FractionalSeconds="0" />
 								</HtmlRangeLabeledDivisions>
@@ -819,21 +791,21 @@
 								<HtmlPlotRenderer Id="2101" LineStroke="[SMSolidColorBrush]#ffee1c25" />
 							</HtmlPlot>
 						</HtmlCartesianGraph>
-						<HtmlScaleLegend Graph="[UIModel]2093" Height="[float]70" Id="2102" Left="[float]858" MinWidth="[float]160" Top="[float]404" Visible="[bool]False" Width="[float]160" />
-						<HtmlPlotLegend Graph="[UIModel]2093" Height="[float]182" Id="2103" Left="[float]858" MinWidth="[float]160" Top="[float]239" Visible="[bool]False" Width="[float]160" />
-						<HtmlCursorLegend Graph="[UIModel]2093" Height="[float]200" Id="2104" Left="[float]16" MinWidth="[float]320" Top="[float]515" Visible="[bool]False" Width="[float]320" />
-						<HtmlGraphTools Graph="[UIModel]2093" Height="[float]35" Id="2105" Left="[float]16" Top="[float]473" Visible="[bool]False" Width="[float]168" />
-						<HtmlLabel Height="[float]16" Id="2106" LabelOwner="[UIModel]2093" Left="[float]16" Text="[string]T HistMinMax node 2" Top="[float]219" Visible="[bool]False" Width="[float]120" />
-						<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="2790" IsReadOnly="[bool]True" Label="[UIModel]2812" Left="[float]16" MinHeight="[float]24" TabIndex="[int]2" Text="{DataItemBinding Id=2789}" TextAlignment="[TextAlignment]Center" Top="[float]214" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]835" />
-						<HtmlLabel Height="[float]16" Id="2812" LabelOwner="[UIModel]2790" Left="[float]16" Text="[string]T summary node 1" Top="[float]194" Visible="[bool]False" Width="[float]105" />
-						<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="2798" IsReadOnly="[bool]True" Label="[UIModel]2813" Left="[float]16" MinHeight="[float]24" TabIndex="[int]3" Text="{DataItemBinding Id=2797}" TextAlignment="[TextAlignment]Center" Top="[float]442" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]835" />
-						<HtmlLabel Height="[float]16" Id="2813" LabelOwner="[UIModel]2798" Left="[float]16" Text="[string]T summary node 2" Top="[float]422" Visible="[bool]False" Width="[float]105" />
+						<HtmlScaleLegend Graph="[UIModel]2093" Height="[float]70" Id="2102" Left="[float]1207" MinWidth="[float]160" Top="[float]693" Visible="[bool]False" Width="[float]160" />
+						<HtmlPlotLegend Graph="[UIModel]2093" Height="[float]182" Id="2103" Left="[float]1207" MinWidth="[float]160" Top="[float]395" Visible="[bool]False" Width="[float]160" />
+						<HtmlCursorLegend Graph="[UIModel]2093" Height="[float]200" Id="2104" Left="[float]0" MinWidth="[float]320" Top="[float]804" Visible="[bool]False" Width="[float]320" />
+						<HtmlGraphTools Graph="[UIModel]2093" Height="[float]35" Id="2105" Left="[float]0" Top="[float]762" Visible="[bool]False" Width="[float]168" />
+						<HtmlLabel Height="[float]16" Id="2106" LabelOwner="[UIModel]2093" Left="[float]0" Text="[string]T HistMinMax node 2" Top="[float]375" Visible="[bool]False" Width="[float]120" />
+						<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="2790" IsReadOnly="[bool]True" Label="[UIModel]2812" Left="[float]0" MinHeight="[float]24" TabIndex="[int]2" Text="{DataItemBinding Id=2789}" TextAlignment="[TextAlignment]Center" Top="[float]372" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]1200" />
+						<HtmlLabel Height="[float]16" Id="2812" LabelOwner="[UIModel]2790" Left="[float]0" Text="[string]T summary node 1" Top="[float]352" Visible="[bool]False" Width="[float]105" />
+						<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="2798" IsReadOnly="[bool]True" Label="[UIModel]2813" Left="[float]0" MinHeight="[float]24" TabIndex="[int]3" Text="{DataItemBinding Id=2797}" TextAlignment="[TextAlignment]Center" Top="[float]754" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]1200" />
+						<HtmlLabel Height="[float]16" Id="2813" LabelOwner="[UIModel]2798" Left="[float]0" Text="[string]T summary node 2" Top="[float]734" Visible="[bool]False" Width="[float]105" />
 					</HtmlLayoutPanel>
 				</HtmlTabItem>
 				<HtmlTabItem Header="[string]Historical Min Max RH" Id="1960" Left="[float]0" Top="[float]0">
-					<HtmlLayoutPanel Height="[float]473" Id="1961" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]23" Width="[float]865">
-						<HtmlCartesianGraph DataSource="{DataItemBinding Id=1990}" DataSourceType="[Type]@8b6fd09786224778b20b2652385f3aee" Height="[float]227" Id="1962" Label="[UIModel]1989" Left="[float]16" TabIndex="[int]0" Top="[float]11" Width="[float]835">
-							<HtmlAxis Adjuster="[RangeAdjuster]FitExactly" Id="1963" Label="[string]Time Node 1" MajorDivisions="[UIModel]1974" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double">
+					<HtmlLayoutPanel Height="[float]778" Id="1961" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]23" Width="[float]1200">
+						<HtmlCartesianGraph DataSource="{DataItemBinding Id=1990}" DataSourceType="[Type]@8b6fd09786224778b20b2652385f3aee" Height="[float]360" Id="1962" Label="[UIModel]1989" Left="[float]0" TabIndex="[int]0" Top="[float]13" Width="[float]1200">
+							<HtmlAxis Adjuster="[RangeAdjuster]FitExactly" Id="1963" Label="[string]Time" MajorDivisions="[UIModel]1974" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double">
 								<HtmlRangeLabeledDivisions Id="1974">
 									<p.LabelPresenter Kind="LVTime" Format="#d" FractionalSeconds="0" />
 								</HtmlRangeLabeledDivisions>
@@ -850,12 +822,12 @@
 								<HtmlPlotRenderer Id="1980" LineStroke="[SMSolidColorBrush]#ff0070bc" />
 							</HtmlPlot>
 						</HtmlCartesianGraph>
-						<HtmlScaleLegend Graph="[UIModel]1962" Height="[float]70" Id="1985" Left="[float]858" MinWidth="[float]160" Top="[float]176" Visible="[bool]False" Width="[float]160" />
-						<HtmlPlotLegend Graph="[UIModel]1962" Height="[float]182" Id="1986" Left="[float]858" MinWidth="[float]160" Top="[float]11" Visible="[bool]False" Width="[float]160" />
-						<HtmlCursorLegend Graph="[UIModel]1962" Height="[float]200" Id="1987" Left="[float]16" MinWidth="[float]320" Top="[float]287" Visible="[bool]False" Width="[float]320" />
-						<HtmlGraphTools Graph="[UIModel]1962" Height="[float]35" Id="1988" Left="[float]16" Top="[float]245" Visible="[bool]False" Width="[float]168" />
-						<HtmlLabel Height="[float]16" Id="1989" LabelOwner="[UIModel]1962" Left="[float]16" Text="[string]RH HistMinMax node 1" Top="[float]-9" Visible="[bool]False" Width="[float]130" />
-						<HtmlCartesianGraph DataSource="{DataItemBinding Id=2139}" DataSourceType="[Type]@8b6fd09786224778b20b2652385f3aee" Height="[float]227" Id="2125" Label="[UIModel]2138" Left="[float]16" TabIndex="[int]1" Top="[float]239" Width="[float]835">
+						<HtmlScaleLegend Graph="[UIModel]1962" Height="[float]70" Id="1985" Left="[float]1207" MinWidth="[float]160" Top="[float]311" Visible="[bool]False" Width="[float]160" />
+						<HtmlPlotLegend Graph="[UIModel]1962" Height="[float]182" Id="1986" Left="[float]1207" MinWidth="[float]160" Top="[float]13" Visible="[bool]False" Width="[float]160" />
+						<HtmlCursorLegend Graph="[UIModel]1962" Height="[float]200" Id="1987" Left="[float]0" MinWidth="[float]320" Top="[float]422" Visible="[bool]False" Width="[float]320" />
+						<HtmlGraphTools Graph="[UIModel]1962" Height="[float]35" Id="1988" Left="[float]0" Top="[float]380" Visible="[bool]False" Width="[float]168" />
+						<HtmlLabel Height="[float]16" Id="1989" LabelOwner="[UIModel]1962" Left="[float]0" Text="[string]RH HistMinMax node 1" Top="[float]-7" Visible="[bool]False" Width="[float]130" />
+						<HtmlCartesianGraph DataSource="{DataItemBinding Id=2139}" DataSourceType="[Type]@8b6fd09786224778b20b2652385f3aee" Height="[float]360" Id="2125" Label="[UIModel]2138" Left="[float]0" TabIndex="[int]1" Top="[float]395" Width="[float]1200">
 							<HtmlAxis Adjuster="[RangeAdjuster]FitExactly" Id="2126" Label="[string]Time Node 2" MajorDivisions="[UIModel]2130" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double">
 								<HtmlRangeLabeledDivisions Id="2130">
 									<p.LabelPresenter Kind="LVTime" Format="#d" FractionalSeconds="0" />
@@ -873,23 +845,23 @@
 								<HtmlPlotRenderer Id="2133" LineStroke="[SMSolidColorBrush]#ff0070bc" />
 							</HtmlPlot>
 						</HtmlCartesianGraph>
-						<HtmlScaleLegend Graph="[UIModel]2125" Height="[float]70" Id="2134" Left="[float]858" MinWidth="[float]160" Top="[float]404" Visible="[bool]False" Width="[float]160" />
-						<HtmlPlotLegend Graph="[UIModel]2125" Height="[float]182" Id="2135" Left="[float]858" MinWidth="[float]160" Top="[float]239" Visible="[bool]False" Width="[float]160" />
-						<HtmlCursorLegend Graph="[UIModel]2125" Height="[float]200" Id="2136" Left="[float]16" MinWidth="[float]320" Top="[float]515" Visible="[bool]False" Width="[float]320" />
-						<HtmlGraphTools Graph="[UIModel]2125" Height="[float]35" Id="2137" Left="[float]16" Top="[float]473" Visible="[bool]False" Width="[float]168" />
-						<HtmlLabel Height="[float]16" Id="2138" LabelOwner="[UIModel]2125" Left="[float]16" Text="[string]RH HistMinMax node 2" Top="[float]219" Visible="[bool]False" Width="[float]130" />
-						<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="2809" IsReadOnly="[bool]True" Label="[UIModel]2814" Left="[float]16" MinHeight="[float]24" TabIndex="[int]2" Text="{DataItemBinding Id=2807}" TextAlignment="[TextAlignment]Center" Top="[float]214" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]835" />
-						<HtmlLabel Height="[float]16" Id="2814" LabelOwner="[UIModel]2809" Left="[float]16" Text="[string]RH summary node 1" Top="[float]194" Visible="[bool]False" Width="[float]115" />
-						<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="2810" IsReadOnly="[bool]True" Label="[UIModel]2815" Left="[float]16" MinHeight="[float]24" TabIndex="[int]3" Text="{DataItemBinding Id=2808}" TextAlignment="[TextAlignment]Center" Top="[float]442" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]835" />
-						<HtmlLabel Height="[float]16" Id="2815" LabelOwner="[UIModel]2810" Left="[float]16" Text="[string]RH summary node 2" Top="[float]422" Visible="[bool]False" Width="[float]115" />
+						<HtmlScaleLegend Graph="[UIModel]2125" Height="[float]70" Id="2134" Left="[float]1207" MinWidth="[float]160" Top="[float]693" Visible="[bool]False" Width="[float]160" />
+						<HtmlPlotLegend Graph="[UIModel]2125" Height="[float]182" Id="2135" Left="[float]1207" MinWidth="[float]160" Top="[float]395" Visible="[bool]False" Width="[float]160" />
+						<HtmlCursorLegend Graph="[UIModel]2125" Height="[float]200" Id="2136" Left="[float]0" MinWidth="[float]320" Top="[float]804" Visible="[bool]False" Width="[float]320" />
+						<HtmlGraphTools Graph="[UIModel]2125" Height="[float]35" Id="2137" Left="[float]0" Top="[float]762" Visible="[bool]False" Width="[float]168" />
+						<HtmlLabel Height="[float]16" Id="2138" LabelOwner="[UIModel]2125" Left="[float]0" Text="[string]RH HistMinMax node 2" Top="[float]375" Visible="[bool]False" Width="[float]130" />
+						<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="2809" IsReadOnly="[bool]True" Label="[UIModel]2814" Left="[float]0" MinHeight="[float]24" TabIndex="[int]2" Text="{DataItemBinding Id=2807}" TextAlignment="[TextAlignment]Center" Top="[float]372" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]1200" />
+						<HtmlLabel Height="[float]16" Id="2814" LabelOwner="[UIModel]2809" Left="[float]0" Text="[string]RH summary node 1" Top="[float]352" Visible="[bool]False" Width="[float]115" />
+						<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="2810" IsReadOnly="[bool]True" Label="[UIModel]2815" Left="[float]0" MinHeight="[float]24" TabIndex="[int]3" Text="{DataItemBinding Id=2808}" TextAlignment="[TextAlignment]Center" Top="[float]754" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]1200" />
+						<HtmlLabel Height="[float]16" Id="2815" LabelOwner="[UIModel]2810" Left="[float]0" Text="[string]RH summary node 2" Top="[float]734" Visible="[bool]False" Width="[float]115" />
 					</HtmlLayoutPanel>
 				</HtmlTabItem>
 			</HtmlTabControl>
-			<HtmlLabel Height="[float]16" Id="51" LabelOwner="[UIModel]46" Left="[float]0" Text="[string]Tab" Top="[float]-16" Visible="[bool]False" Width="[float]25" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlBooleanLED BaseName="[string]Square LED" FalseBackground="[SMSolidColorBrush]#ffffffff" FalseContent="[string]Off" Height="[float]24" Id="1118" IsReadOnly="[bool]True" Label="[UIModel]1123" Left="[float]738" MinHeight="[float]16" MinWidth="[float]16" Shape="[LEDShape]Square" TabIndex="[int]1" Top="[float]4" TrueBackground="[SMSolidColorBrush]#ffee1c25" TrueContent="[string]On" Value="{DataItemBinding Id=1117}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlLabel Height="[float]16" Id="1123" LabelOwner="[UIModel]1118" Left="[float]738" Text="[string]status" Top="[float]-16" Visible="[bool]False" Width="[float]38" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="1598" IsReadOnly="[bool]True" Label="[UIModel]1599" Left="[float]761" MinHeight="[float]20" MinWidth="[float]20" TabIndex="[int]2" Text="{DataItemBinding Id=1596}" TextAlignment="[TextAlignment]Center" Top="[float]4" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]104" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlLabel Height="[float]16" Id="1599" LabelOwner="[UIModel]1598" Left="[float]761" Text="[string]Update Time" Top="[float]-16" Visible="[bool]False" Width="[float]75" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlLabel Height="[float]16" Id="51" LabelOwner="[UIModel]46" Left="[float]0" Text="[string]Tab" Top="[float]-20" Visible="[bool]False" Width="[float]25" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlBooleanLED BaseName="[string]Square LED" FalseBackground="[SMSolidColorBrush]#ffffffff" FalseContent="[string]Off" Height="[float]24" Id="1118" IsReadOnly="[bool]True" Label="[UIModel]1123" Left="[float]1073" MinHeight="[float]16" MinWidth="[float]16" Shape="[LEDShape]Square" TabIndex="[int]1" Top="[float]0" TrueBackground="[SMSolidColorBrush]#ffee1c25" TrueContent="[string]On" Value="{DataItemBinding Id=1117}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlLabel Height="[float]16" Id="1123" LabelOwner="[UIModel]1118" Left="[float]1073" Text="[string]status" Top="[float]-20" Visible="[bool]False" Width="[float]38" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="1598" IsReadOnly="[bool]True" Label="[UIModel]1599" Left="[float]1096" MinHeight="[float]20" MinWidth="[float]20" TabIndex="[int]2" Text="{DataItemBinding Id=1596}" TextAlignment="[TextAlignment]Center" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]104" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlLabel Height="[float]16" Id="1599" LabelOwner="[UIModel]1598" Left="[float]1096" Text="[string]Update Time" Top="[float]-20" Visible="[bool]False" Width="[float]75" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 		</HtmlFrontPanel>
 		<DataItem AdaptToDiagramType="True" DataType="Int32" Id="44" Name="Tab" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0</p.DefaultValue>
@@ -1029,13 +1001,16 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="a43a391029e04666946dec7edb43dd48">
-			<Attributed AttributedType="@e0e888843fa14a0e8289aacb4b90941b">
+		<p.TypeReference TypeId="0edc6f49fcb446d5b9842703b3d40561">
+			<Attributed AttributedType="@6ca90c846f124c188b29843730a4ba28">
 				<AttributeValues>
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="411aa9155bac4b30b49b50a210ab1336">
+			<VariableArray DereferenceType=":DotNet:NationalInstruments.Controls.Runtime.ListboxProxy, NationalInstruments.Controls.Runtime`Int32`Int32" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="1f1a754288a94c2fa687a45ac17612a9">
 			<Attributed AttributedType="@f3b2d8a422e44c47b575bb205ab81ab5">
@@ -1185,32 +1160,37 @@
 				</Parameters>
 			</Event>
 		</p.TypeReference>
-		<p.TypeReference TypeId="e0e888843fa14a0e8289aacb4b90941b">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="GetFileList.gvi" ReturnType="Void" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="6ca90c846f124c188b29843730a4ba28">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="UI_FileList.gvi" ReturnType="Void" GenericTypeDefinition="Void">
 				<Parameters>
 					<Attributed AttributedType="@65b4c1a9ce87412da915a1b769f33edb">
 						<AttributeValues>
-							<AttributeValue Name="NI.UserDefinedName" Value="[string]client handle" />
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Input" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@66e8261d484a4f25a75f90c45114f4cb">
+					<Attributed AttributedType="@83718d08d7e3455ab2c57979388d5127">
 						<AttributeValues>
-							<AttributeValue Name="NI.UserDefinedName" Value="[string]BaseURL" />
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Base URL" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@956fa70adfbc482cbc23ae96da3feacc">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@6966e0a5fadc4ee3873b198029aa4ed3">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]ControlRefs" />
 						</AttributeValues>
 					</Attributed>
 					<Attributed AttributedType="@02b4ff940ef24116a73a18d1f2b46bcf">
 						<AttributeValues>
-							<AttributeValue Name="NI.UserDefinedName" Value="[string]client handle out" />
-						</AttributeValues>
-					</Attributed>
-					<Attributed AttributedType="@903043cd29074336b4119198591dec72">
-						<AttributeValues>
-							<AttributeValue Name="NI.UserDefinedName" Value="[string]value" />
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Output" />
 						</AttributeValues>
 					</Attributed>
 					<Attributed AttributedType="@12d0f03c6adc4a019993ebfd40e97711">
 						<AttributeValues>
-							<AttributeValue Name="NI.UserDefinedName" Value="[string]error out" />
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error out" />
 						</AttributeValues>
 					</Attributed>
 				</Parameters>
@@ -1407,8 +1387,8 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="66e8261d484a4f25a75f90c45114f4cb">
-			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="String" />
+		<p.TypeReference TypeId="6966e0a5fadc4ee3873b198029aa4ed3">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="T0" DataType="@411aa9155bac4b30b49b50a210ab1336" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="84bd294843044450a3c11b889b4733be">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="T0" DataType="String[]" />
@@ -1479,7 +1459,7 @@
 				</MergeItem>
 			</MergeScript>
 		</p.IconModel>
-		<p.IconModel Target="WebApp::NodeCommunication::GetFileList.gvi">
+		<p.IconModel Target="WebApp::UI_FileList.gvi">
 			<MergeScript>
 				<MergeItem Path="." IsPrimary="True">
 					<Icon ListViewIconCrop="0 0 40 40">
@@ -1487,7 +1467,7 @@
 							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
 								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-								<FileNameText Attached="[bool]True" Height="[float]36" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]GetFileList" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+								<FileNameText Attached="[bool]True" Height="[float]36" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]UI_FileList" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
 									<FontSetting FontFamily="Verdana" FontSize="6" />
 								</FileNameText>
 							</IconTemplate>

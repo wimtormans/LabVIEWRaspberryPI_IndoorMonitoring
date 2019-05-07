@@ -3,27 +3,27 @@
   <Job OutputType="Distribution:NiPackagePartial">
     <CurrentBuildId>
       <ComponentSubtypeIdentifier>Distribution:NiPackagePartial</ComponentSubtypeIdentifier>
-      <BuildId>C:\VIT\RaspberryPI IndoorMonitoring\WebVI\IndoorMonitoring\Builds\WebApp</BuildId>
+      <BuildId>C:\VIT\GitHub\LabVIEWRaspberryPI_IndoorMonitoring\WebVI\Builds\WebApp</BuildId>
     </CurrentBuildId>
     <RootBuildId>
       <ComponentSubtypeIdentifier>Distribution:NiPackagePartial</ComponentSubtypeIdentifier>
-      <BuildId>C:\VIT\RaspberryPI IndoorMonitoring\WebVI\IndoorMonitoring\Builds\WebApp</BuildId>
+      <BuildId>C:\VIT\GitHub\LabVIEWRaspberryPI_IndoorMonitoring\WebVI\Builds\WebApp</BuildId>
     </RootBuildId>
-    <OutputPath>Builds\WebApp\vitechnologies-indoormonitoring-labview-webapp-bin-1_1.0.0.4_windows_x64.nipkg</OutputPath>
+    <OutputPath>Builds\WebApp\vitechnologies-indoormonitoring-labview-webapp-bin-1_1.0.0.7_windows_x64.nipkg</OutputPath>
     <BuildName>WebApp</BuildName>
     <State>Success</State>
-    <LastTotalTime>00:00:03</LastTotalTime>
+    <LastTotalTime>00:00:04</LastTotalTime>
     <HasChild>True</HasChild>
     <QualifiedName>::NullTarget::WebApp.lvdist</QualifiedName>
   </Job>
   <Job OutputType="WebApplication">
     <CurrentBuildId>
       <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
-      <BuildId>C:\VIT\RaspberryPI IndoorMonitoring\WebVI\IndoorMonitoring\Builds\WebApp_Web Server</BuildId>
+      <BuildId>C:\VIT\GitHub\LabVIEWRaspberryPI_IndoorMonitoring\WebVI\Builds\WebApp_Web Server</BuildId>
     </CurrentBuildId>
     <RootBuildId>
       <ComponentSubtypeIdentifier>Distribution:NiPackagePartial</ComponentSubtypeIdentifier>
-      <BuildId>C:\VIT\RaspberryPI IndoorMonitoring\WebVI\IndoorMonitoring\Builds\WebApp</BuildId>
+      <BuildId>C:\VIT\GitHub\LabVIEWRaspberryPI_IndoorMonitoring\WebVI\Builds\WebApp</BuildId>
     </RootBuildId>
     <OutputPath>Builds\WebApp_Web Server</OutputPath>
     <BuildName>WebApp</BuildName>
