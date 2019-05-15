@@ -16,7 +16,7 @@
 	</Item>
 	<Item Name="Raspberry Pi 2 B" Type="Raspberry Pi 2 B">
 		<Property Name="alias.name" Type="Str">Raspberry Pi 2 B</Property>
-		<Property Name="alias.value" Type="Str">192.168.178.67</Property>
+		<Property Name="alias.value" Type="Str">192.168.178.191</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,ARM;LINX_DEVICE,True;LINX_DEVICE_FAMILY,4;LINX_DEVICE_ID,3;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
@@ -96,13 +96,14 @@ AddOutputFilter chunkFilter
 			<Item Name="AddCorHeaders.vi" Type="VI" URL="../Utils/AddCorHeaders.vi"/>
 			<Item Name="GetPICoreTemperature.vi" Type="VI" URL="../Utils/GetPICoreTemperature.vi"/>
 			<Item Name="FilterFaulty.vi" Type="VI" URL="../Utils/FilterFaulty.vi"/>
+			<Item Name="ProcessOldFilesOnTarget.vi" Type="VI" URL="../Utils/ProcessOldFilesOnTarget.vi"/>
 		</Item>
 		<Item Name="IndoorData.lvclass" Type="LVClass" URL="../IndoorData_class/IndoorData.lvclass"/>
 		<Item Name="SHT21.lvclass" Type="LVClass" URL="../Sensor_SHT21/SHT21_class/SHT21.lvclass"/>
 		<Item Name="NodeConfiguration.lvclass" Type="LVClass" URL="../NodeConfiguration_class/NodeConfiguration.lvclass"/>
 		<Item Name="IndoorMonitoring" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
-			<Property Name="Bld_version.build" Type="Int">17</Property>
+			<Property Name="Bld_version.build" Type="Int">18</Property>
 			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
 			<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
@@ -219,7 +220,7 @@ AddOutputFilter chunkFilter
 		<Item Name="IndoorMonitoring_Main.vi" Type="VI" URL="../IndoorMonitoring_Main.vi"/>
 		<Item Name="ConfigFileNode1.ini" Type="Document" URL="../ConfigFileNode1.ini"/>
 		<Item Name="ConfigFileNode2.ini" Type="Document" URL="../ConfigFileNode2.ini"/>
-		<Item Name="ProcessOldFilesOnTarget.vi" Type="VI" URL="../Utils/ProcessOldFilesOnTarget.vi"/>
+		<Item Name="ConfigFileNode3.ini" Type="Document" URL="../ConfigFileNode3.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -336,7 +337,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6584B0D4-9E80-42A9-9BEA-61B637203188}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
