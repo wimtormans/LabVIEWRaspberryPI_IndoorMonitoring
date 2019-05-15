@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="B33996DCB8B961CEE3937489ADBC712D75C9B501A1241954315F574D1AAAC0C28B734D99DC8C563303B7DDD641EA110ACF1DE180200D0252A7018C623B91A482" Timestamp="1D504CD43A07E26" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="E5033D841B15B89B91E7666C2F1D2B4EE8B5C5154FA4F4672E7CDAC8FE32BA90B1862E0987278B6B9BBCF0EA50CE61F26DE20B03BACF68D258E0A79013888FBE" Timestamp="1D50716B5F077F0" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
@@ -30,18 +30,32 @@
 					<SourceFileReference Id="28" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GetDebug.gvi" StoragePath="NodeCommunication\GetDebug.gvi" />
 					<SourceFileReference Id="29" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GetAveraged.gvi" StoragePath="NodeCommunication\GetAveraged.gvi" />
 					<SourceFileReference Id="30" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GetActualValues.gvi" StoragePath="NodeCommunication\GetActualValues.gvi" />
-					<SourceFileReference Bindings="EnvoyManager" Id="31" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Debug.gtype" StoragePath="NodeCommunication\Debug.gtype\Debug.gtype" />
-					<SourceFileReference Bindings="EnvoyManager" Id="32" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="ActualValues.gtype" StoragePath="NodeCommunication\ActualValues.gtype\ActualValues.gtype" />
-					<SourceFileReference Bindings="EnvoyManager" Id="34" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="AVGData.gtype" StoragePath="NodeCommunication\AVGData.gtype\AVGData.gtype" />
 					<SourceFileReference Id="37" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GetFileData.gvi" StoragePath="NodeCommunication\GetFileData.gvi" />
 					<SourceFileReference Id="39" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GetHistoricalMinMax.gvi" StoragePath="NodeCommunication\GetHistoricalMinMax.gvi" />
-					<SourceFileReference Bindings="EnvoyManager" Id="40" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="HistMinMax.gtype" StoragePath="NodeCommunication\HistMinMax.gtype\HistMinMax.gtype" />
+					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="44" Name="Gtype">
+						<SourceFileReference Bindings="EnvoyManager" Id="45" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="HistMinMax.gtype" StoragePath="NodeCommunication\Gtype\HistMinMax.gtype\HistMinMax.gtype" />
+						<SourceFileReference Bindings="EnvoyManager" Id="46" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="AVGData.gtype" StoragePath="NodeCommunication\Gtype\AVGData.gtype\AVGData.gtype" />
+						<SourceFileReference Bindings="EnvoyManager" Id="47" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="ActualValues.gtype" StoragePath="NodeCommunication\Gtype\ActualValues.gtype\ActualValues.gtype" />
+						<SourceFileReference Bindings="EnvoyManager" Id="48" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Debug.gtype" StoragePath="NodeCommunication\Gtype\Debug.gtype\Debug.gtype" />
+					</NameScopingEnvoy>
 				</NameScopingEnvoy>
 				<SourceFileReference Id="35" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UI_Actuals.gvi" StoragePath="UI_Actuals.gvi" />
 				<SourceFileReference Id="36" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UI_Averaged.gvi" StoragePath="UI_Averaged.gvi" />
 				<SourceFileReference Id="38" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UI_Historical.gvi" StoragePath="UI_Historical.gvi" />
 				<SourceFileReference Id="41" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UI_HistoricalMinMax.gvi" StoragePath="UI_HistoricalMinMax.gvi" />
 				<SourceFileReference Id="42" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UI_FileList.gvi" StoragePath="UI_FileList.gvi" />
+				<SourceFileReference Bindings="EnvoyManager" Id="43" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="NodeGraphs.gtype" StoragePath="NodeGraphs.gtype\NodeGraphs.gtype" />
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="49" Name="UI_Functions">
+					<SourceFileReference Id="50" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UIFunctions_init.gvi" StoragePath="UI_Functions\UIFunctions_init.gvi" />
+					<SourceFileReference Bindings="EnvoyManager" Id="51" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="UI_FunctionProps.gtype" StoragePath="UI_Functions\UI_FunctionProps.gtype\UI_FunctionProps.gtype" />
+					<SourceFileReference Id="52" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UIFunctions_GetDebug.gvi" StoragePath="UI_Functions\UIFunctions_GetDebug.gvi" />
+					<SourceFileReference Id="53" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UIFunctions_GetActualValues.gvi" StoragePath="UI_Functions\UIFunctions_GetActualValues.gvi" />
+					<SourceFileReference Id="54" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UIFunctions_GetAveragedValues.gvi" StoragePath="UI_Functions\UIFunctions_GetAveragedValues.gvi" />
+					<SourceFileReference Id="55" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UIFunctions_GetFileList.gvi" StoragePath="UI_Functions\UIFunctions_GetFileList.gvi" />
+					<SourceFileReference Id="56" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UIFunctions_GetFileData.gvi" StoragePath="UI_Functions\UIFunctions_GetFileData.gvi" />
+					<SourceFileReference Id="57" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UIFunctions_GetMinMaxValues.gvi" StoragePath="UI_Functions\UIFunctions_GetMinMaxValues.gvi" />
+					<SourceFileReference Id="58" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UIFunctions_FormatMinMaxString.gvi" StoragePath="UI_Functions\UIFunctions_FormatMinMaxString.gvi" />
+				</NameScopingEnvoy>
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="9" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="WebApp.gcomp" NameTracksFileName="True">

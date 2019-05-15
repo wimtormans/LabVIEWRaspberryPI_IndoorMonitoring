@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="355FBD488C539B794A961D678FD69A6851F32A22AB4380F5FE05154FED432605B2FAED85EC2BBDE9B1BB6CD03AC969099CC53978021BBB540FCFA0FDDBEB86C6" Timestamp="1D4FF302EC80E00" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="49838202E8FBD20C216C6D1CF0AFB7ADB3A0B70490907EAF74E8A4FC0ABA0623A0FD66FD0002957C4F1C5B5CF279B48E9C6D013F787F59BDA758F75883355E94" Timestamp="1D50695A46AD3B7" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -73,25 +73,26 @@
 				<p4:Label Height="[float]16" Id="213" LabelOwner="[UIModel]212" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
 				<p4:Label Height="[float]16" Id="214" IsVisualChild="[bool]False" LabelOwner="[UIModel]207" Left="[float]564" Text="[string]Error in" Top="[float]160" Width="[float]26" />
 			</Cluster>
-			<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@7aa44e4b50104d92ab1de20f618ecbc8" Height="[float]200" Id="215" Left="[float]100" Name="[string]AveragedData" TabIndex="[int]5" Top="[float]100" Value="{DataItemBinding Id=193}" Width="[float]127" p4:ControlDefinitionChecksum="fVyPb9t1WjHx9kvddR58wREDUe8JJaxwZCyXu9Gtxik=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+			<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@561ef1d7081f49699ae41b1066e0c60c" Height="[float]200" Id="215" IsTabStop="[bool]True" Label="[UIModel]244" Left="[float]100" TabIndex="[int]5" Top="[float]100" Value="{DataItemBinding Id=193}" Width="[float]127" p4:ControlDefinitionChecksum="n5Rx89ARAhZjKHayWIDT+lqe98ZjnFcZ6KD9P65yGGg=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
 				<p4:p.TypeDefinitionTargets>
-					<p4:TypeDefinitionTarget TargetName="WebApp::NodeCommunication::AVGData.gtype::ControlDefinition" />
+					<p4:TypeDefinitionTarget TargetName="WebApp::NodeCommunication::Gtype::AVGData.gtype::ControlDefinition" />
 				</p4:p.TypeDefinitionTargets>
-				<p4:ArrayViewer ArrayElement="[UIModel]222" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]36" Id="216" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]217" Left="[float]4" Orientation="[SMOrientation]Vertical" Rows="[int]1" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Time}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]111">
+				<p4:ArrayViewer ArrayElement="[UIModel]241" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]36" Id="235" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]236" Left="[float]4" Orientation="[SMOrientation]Vertical" Rows="[int]1" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Time}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]111">
 					<p.DefaultElementValue>0x0</p.DefaultElementValue>
-					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="222" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" IsReadOnly="[bool]True" MinHeight="[float]24" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="241" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" IsReadOnly="[bool]True" MinHeight="[float]24" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 				</p4:ArrayViewer>
-				<p4:Label Id="217" LabelOwner="[UIModel]216" Left="[float]4" Text="[string]Time" Top="[float]4" />
-				<p4:ArrayViewer ArrayElement="[UIModel]223" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]36" Id="218" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]219" Left="[float]4" Orientation="[SMOrientation]Vertical" Rows="[int]1" TabIndex="[int]1" Top="[float]88" Value="{ClusterBinding FieldName=Temp}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]111">
+				<p4:Label Id="236" LabelOwner="[UIModel]235" Left="[float]4" Text="[string]Time" Top="[float]4" />
+				<p4:ArrayViewer ArrayElement="[UIModel]242" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]36" Id="237" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]238" Left="[float]4" Orientation="[SMOrientation]Vertical" Rows="[int]1" TabIndex="[int]1" Top="[float]88" Value="{ClusterBinding FieldName=Temp}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]111">
 					<p.DefaultElementValue>0x0</p.DefaultElementValue>
-					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="223" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" IsReadOnly="[bool]True" MinHeight="[float]24" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="242" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" IsReadOnly="[bool]True" MinHeight="[float]24" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 				</p4:ArrayViewer>
-				<p4:Label Id="219" LabelOwner="[UIModel]218" Left="[float]4" Text="[string]Temp" Top="[float]68" />
-				<p4:ArrayViewer ArrayElement="[UIModel]224" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]36" Id="220" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]221" Left="[float]4" Orientation="[SMOrientation]Vertical" Rows="[int]1" TabIndex="[int]2" Top="[float]152" Value="{ClusterBinding FieldName=RH}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]111">
+				<p4:Label Id="238" LabelOwner="[UIModel]237" Left="[float]4" Text="[string]Temp" Top="[float]68" />
+				<p4:ArrayViewer ArrayElement="[UIModel]243" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]36" Id="239" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]240" Left="[float]4" Orientation="[SMOrientation]Vertical" Rows="[int]1" TabIndex="[int]2" Top="[float]152" Value="{ClusterBinding FieldName=RH}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]111">
 					<p.DefaultElementValue>0x0</p.DefaultElementValue>
-					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="224" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" IsReadOnly="[bool]True" MinHeight="[float]24" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="243" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" IsReadOnly="[bool]True" MinHeight="[float]24" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 				</p4:ArrayViewer>
-				<p4:Label Id="221" LabelOwner="[UIModel]220" Left="[float]4" Text="[string]RH" Top="[float]132" />
+				<p4:Label Id="240" LabelOwner="[UIModel]239" Left="[float]4" Text="[string]RH" Top="[float]132" />
+				<p4:Label Id="244" IsVisualChild="[bool]False" LabelOwner="[UIModel]215" Left="[float]100" Text="[string]AveragedData" Top="[float]80" />
 			</Cluster>
 			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="228" IsReadOnly="[bool]False" Label="[UIModel]229" Left="[float]100" MinHeight="[float]24" TabIndex="[int]6" Text="{DataItemBinding Id=227}" Top="[float]308" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="229" LabelOwner="[UIModel]228" Left="[float]100" Text="[string]FileName" Top="[float]288" Width="[float]46" xmlns="http://www.ni.com/PanelCommon" />
@@ -158,73 +159,11 @@
 						<StringBehavior TextDisplayMode="Default" />
 					</Literal>
 					<UnflattenFromJSON Bounds="440 60 40 40" Id="149" />
-					<ClusterLiteral Bounds="285 125 114 148" DataType="@7aa44e4b50104d92ab1de20f618ecbc8" Id="150" Label="153" p6:ControlDefinitionChecksum="fVyPb9t1WjHx9kvddR58wREDUe8JJaxwZCyXu9Gtxik=" xmlns:p6="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>
-							<Cluster>
-								<Field1>null</Field1>
-								<Field2>null</Field2>
-								<Field3>null</Field3>
-							</Cluster>
-						</p.Data>
-						<p6:p.TypeDefinitionTargets>
-							<p6:TypeDefinitionTarget TargetName="WebApp::NodeCommunication::AVGData.gtype" />
-							<p6:TypeDefinitionTarget TargetName="WebApp::NodeCommunication::AVGData.gtype::ControlDefinition" />
-						</p6:p.TypeDefinitionTargets>
-						<ClusterBehavior AutoArrange="ArrangeVertically" />
-						<ArrayLiteral Bounds="2 19 93 25" DataType="Double[]" Id="167" Label="168">
-							<p.Data>null</p.Data>
-							<ArrayBehavior ElementType="Double" IndexEditorWidth="42">
-								<p.DefaultElementValue>0x0</p.DefaultElementValue>
-							</ArrayBehavior>
-							<Literal Bounds="49 4 40 15" DataType="Double" Id="173" Label="174">
-								<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
-							</Literal>
-							<NodeLabel AttachedTo="173" Bounds="49 -13 28 14" Id="174" xmlns="http://www.ni.com/PlatformFramework">
-								<p.Text>Time</p.Text>
-							</NodeLabel>
-						</ArrayLiteral>
-						<NodeLabel AttachedTo="167" Bounds="2 2 28 14" Id="168" xmlns="http://www.ni.com/PlatformFramework">
-							<p.Text>Time</p.Text>
-						</NodeLabel>
-						<ArrayLiteral Bounds="2 65 93 25" DataType="Double[]" Id="169" Label="170">
-							<p.Data>null</p.Data>
-							<ArrayBehavior ElementType="Double" IndexEditorWidth="42">
-								<p.DefaultElementValue>0x0</p.DefaultElementValue>
-							</ArrayBehavior>
-							<Literal Bounds="49 4 40 15" DataType="Double" Id="175" Label="176">
-								<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
-							</Literal>
-							<NodeLabel AttachedTo="175" Bounds="49 -13 28 14" Id="176" xmlns="http://www.ni.com/PlatformFramework">
-								<p.Text>Time</p.Text>
-							</NodeLabel>
-						</ArrayLiteral>
-						<NodeLabel AttachedTo="169" Bounds="2 48 30 14" Id="170" xmlns="http://www.ni.com/PlatformFramework">
-							<p.Text>Temp</p.Text>
-						</NodeLabel>
-						<ArrayLiteral Bounds="2 111 93 25" DataType="Double[]" Id="171" Label="172">
-							<p.Data>null</p.Data>
-							<ArrayBehavior ElementType="Double" IndexEditorWidth="42">
-								<p.DefaultElementValue>0x0</p.DefaultElementValue>
-							</ArrayBehavior>
-							<Literal Bounds="49 4 40 15" DataType="Double" Id="177" Label="178">
-								<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
-							</Literal>
-							<NodeLabel AttachedTo="177" Bounds="49 -13 28 14" Id="178" xmlns="http://www.ni.com/PlatformFramework">
-								<p.Text>Time</p.Text>
-							</NodeLabel>
-						</ArrayLiteral>
-						<NodeLabel AttachedTo="171" Bounds="2 94 16 14" Id="172" xmlns="http://www.ni.com/PlatformFramework">
-							<p.Text>RH</p.Text>
-						</NodeLabel>
-					</ClusterLiteral>
 					<NodeLabel AttachedTo="147" Bounds="30 72 30 15" Id="151" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>format string</p.Text>
 					</NodeLabel>
 					<NodeLabel AttachedTo="148" Bounds="45 157 30 15" Id="152" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>input 2</p.Text>
-					</NodeLabel>
-					<NodeLabel AttachedTo="150" Bounds="285 108 50 14" Id="153" xmlns="http://www.ni.com/PlatformFramework">
-						<p.Text>AVGData</p.Text>
 					</NodeLabel>
 					<Wire Id="154" Joints="N(138:136)|(4,45) N(145:L0)|(235,45)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="155" Joints="N(145:R0)|(275,45) N(139:136)|(626,45)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -240,6 +179,59 @@
 					<Wire Id="165" Joints="N(146:errOut)|(195,160) h(34) v(-85) N(145:L3)|(235,75)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="166" Joints="N(149:value)|(480,65) N(142:136)|(626,65)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="233" Joints="N(231:136)|(4,240) h(140) v(-50) N(146:c2t0v)|(155,190)" xmlns="http://www.ni.com/PlatformFramework" />
+					<ClusterLiteral Bounds="278 125 121 151" DataType="@561ef1d7081f49699ae41b1066e0c60c" Id="150" Label="153" p6:ControlDefinitionChecksum="n5Rx89ARAhZjKHayWIDT+lqe98ZjnFcZ6KD9P65yGGg=" xmlns:p6="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>
+							<Cluster>
+								<Field1>null</Field1>
+								<Field2>null</Field2>
+								<Field3>null</Field3>
+							</Cluster>
+						</p.Data>
+						<p6:p.TypeDefinitionTargets>
+							<p6:TypeDefinitionTarget TargetName="WebApp::NodeCommunication::Gtype::AVGData.gtype" />
+							<p6:TypeDefinitionTarget TargetName="WebApp::NodeCommunication::Gtype::AVGData.gtype::ControlDefinition" />
+						</p6:p.TypeDefinitionTargets>
+						<ClusterBehavior AutoArrange="ArrangeVertically" />
+						<ArrayLiteral Bounds="2 20 100 25" DataType="Double[]" Id="247" Label="248">
+							<p.Data>null</p.Data>
+							<ArrayBehavior ElementType="Double" IndexEditorWidth="42">
+								<p.DefaultElementValue>0x0</p.DefaultElementValue>
+							</ArrayBehavior>
+							<Literal Bounds="0 0 40 15" DataType="Double" Id="253">
+								<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+							</Literal>
+						</ArrayLiteral>
+						<NodeLabel AttachedTo="247" Bounds="2 2 30 15" Id="248" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>Time</p.Text>
+						</NodeLabel>
+						<ArrayLiteral Bounds="2 67 100 25" DataType="Double[]" Id="249" Label="250">
+							<p.Data>null</p.Data>
+							<ArrayBehavior ElementType="Double" IndexEditorWidth="42">
+								<p.DefaultElementValue>0x0</p.DefaultElementValue>
+							</ArrayBehavior>
+							<Literal Bounds="0 0 40 15" DataType="Double" Id="254">
+								<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+							</Literal>
+						</ArrayLiteral>
+						<NodeLabel AttachedTo="249" Bounds="2 49 30 15" Id="250" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>Temp</p.Text>
+						</NodeLabel>
+						<ArrayLiteral Bounds="2 114 100 25" DataType="Double[]" Id="251" Label="252">
+							<p.Data>null</p.Data>
+							<ArrayBehavior ElementType="Double" IndexEditorWidth="42">
+								<p.DefaultElementValue>0x0</p.DefaultElementValue>
+							</ArrayBehavior>
+							<Literal Bounds="0 0 40 15" DataType="Double" Id="255">
+								<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+							</Literal>
+						</ArrayLiteral>
+						<NodeLabel AttachedTo="251" Bounds="2 96 30 15" Id="252" xmlns="http://www.ni.com/PlatformFramework">
+							<p.Text>RH</p.Text>
+						</NodeLabel>
+					</ClusterLiteral>
+					<NodeLabel AttachedTo="150" Bounds="278 107 30 15" Id="153" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>AVGData</p.Text>
+					</NodeLabel>
 				</CaseStructure.Case>
 				<CaseStructure.Selector Bounds="-4 310 13 10" Docking="Left" Id="137" Terminals="134=179, 135=143, 136=164" />
 				<CaseStructure.Tunnel Bounds="-4 45 13 10" Docking="Left" Id="138" Terminals="134=126, 135=144, 136=154" />
@@ -251,7 +243,7 @@
 			</CaseStructure>
 			<Wire Id="179" Joints="N(133:Value)|(255,405) N(137:134)|(321,405)" xmlns="http://www.ni.com/PlatformFramework" />
 			<DataAccessor Bounds="999 155 40 15" DataItem="193" Id="180" Label="187" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@7aa44e4b50104d92ab1de20f618ecbc8" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@561ef1d7081f49699ae41b1066e0c60c" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<Wire Id="181" Joints="N(142:134)|(969,160) N(180:Value)|(1002,160)" xmlns="http://www.ni.com/PlatformFramework" />
 			<NodeLabel AttachedTo="125" Bounds="139 135 71 14" Id="182" xmlns="http://www.ni.com/PlatformFramework">
@@ -322,7 +314,7 @@
 				<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
-		<DataItem CallDirection="Output" CallIndex="1" DataType="@7aa44e4b50104d92ab1de20f618ecbc8" Id="193" Name="AveragedData" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Output" CallIndex="1" DataType="@561ef1d7081f49699ae41b1066e0c60c" Id="193" Name="AveragedData" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>
 				<Cluster>
 					<Field1>null</Field1>
@@ -331,7 +323,7 @@
 				</Cluster>
 			</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
-				<TypeDefinitionTarget TargetName="WebApp::NodeCommunication::AVGData.gtype" />
+				<TypeDefinitionTarget TargetName="WebApp::NodeCommunication::Gtype::AVGData.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="3" DataType="String" Id="227" Name="FileName" xmlns="http://www.ni.com/MocCommon">
@@ -346,10 +338,10 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="7aa44e4b50104d92ab1de20f618ecbc8">
+		<p.TypeReference TypeId="561ef1d7081f49699ae41b1066e0c60c">
 			<Attributed AttributedType="@f2a4cf93acf74279b4d498f5a1508afa">
 				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::NodeCommunication" />
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::NodeCommunication::Gtype" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>

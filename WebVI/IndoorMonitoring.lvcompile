@@ -9,7 +9,7 @@
       <ComponentSubtypeIdentifier>Distribution:NiPackagePartial</ComponentSubtypeIdentifier>
       <BuildId>C:\VIT\GitHub\LabVIEWRaspberryPI_IndoorMonitoring\WebVI\Builds\WebApp</BuildId>
     </RootBuildId>
-    <OutputPath>Builds\WebApp\vitechnologies-indoormonitoring-labview-webapp-bin-1_1.0.0.7_windows_x64.nipkg</OutputPath>
+    <OutputPath>Builds\WebApp\vitechnologies-indoormonitoring-labview-webapp-bin-1_1.0.0.8_windows_x64.nipkg</OutputPath>
     <BuildName>WebApp</BuildName>
     <State>Success</State>
     <LastTotalTime>00:00:04</LastTotalTime>

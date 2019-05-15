@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="56D47F57BC77D55A613ABF6206275ACA70DEBF679345FC52EBF3D60E6673497A376CAC3E66BE719AD7069264FB16D4A6037B1367E175D24F4E47D176A5A7DC7C" Timestamp="1D4FF2005826424" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="A157CB6DD42F226505FF446A87F2B6711BD24F51C3F28D4C39D3876683FA992D3FF12AEA6A6C1EC94606B40AD96C821AE42ED79F6AA11515110C9008F84A00BC" Timestamp="1D50695A4562893" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -134,32 +134,32 @@
 					<Wire Id="38" Joints="N(37:Out)|(170,145) h(15) N(36:formatString)|(185,160)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="40" Joints="N(39:Out)|(140,205) N(36:c1t0v)|(160,205)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="49" Joints="N(42:Out)|(436,155) h(89) v(-55) N(41:type and defaults)|(535,100)" xmlns="http://www.ni.com/PlatformFramework" />
-					<ClusterLiteral Bounds="375 150 61 121" DataType="@c82144fd1f3145138dc5f9e0972127bd" Id="42" Label="53" p6:ControlDefinitionChecksum="BOWssdMEmjX4tAFIickavUIPUiFS8pmhAjhQGwi86ho=" xmlns:p6="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+					<ClusterLiteral Bounds="375 150 61 121" DataType="@e94f85e185684b3ea132a2ad10fb59a3" Id="42" Label="53" p6:ControlDefinitionChecksum="ovAUmIICIOWikLmq1C0NPGu8zB0DsFhMY2IwLSJyd2M=" xmlns:p6="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 						<p.Data>0x0_0x0_0x0_</p.Data>
 						<p6:p.TypeDefinitionTargets>
-							<p6:TypeDefinitionTarget TargetName="WebApp::NodeCommunication::ActualValues.gtype" />
-							<p6:TypeDefinitionTarget TargetName="WebApp::NodeCommunication::ActualValues.gtype::ControlDefinition" />
+							<p6:TypeDefinitionTarget TargetName="WebApp::NodeCommunication::Gtype::ActualValues.gtype" />
+							<p6:TypeDefinitionTarget TargetName="WebApp::NodeCommunication::Gtype::ActualValues.gtype::ControlDefinition" />
 						</p6:p.TypeDefinitionTargets>
 						<ClusterBehavior AutoArrange="ArrangeVertically" />
-						<Literal Bounds="2 20 40 15" DataType="Double" Id="629" Label="630">
+						<Literal Bounds="2 20 40 15" DataType="Double" Id="645" Label="646">
 							<p.Data>0x0</p.Data>
 							<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 						</Literal>
-						<NodeLabel AttachedTo="629" Bounds="2 2 30 15" Id="630" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="645" Bounds="2 2 30 15" Id="646" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Time</p.Text>
 						</NodeLabel>
-						<Literal Bounds="2 57 40 15" DataType="Double" Id="631" Label="632">
+						<Literal Bounds="2 57 40 15" DataType="Double" Id="647" Label="648">
 							<p.Data>0x0</p.Data>
 							<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 						</Literal>
-						<NodeLabel AttachedTo="631" Bounds="2 39 30 15" Id="632" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="647" Bounds="2 39 30 15" Id="648" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Temp</p.Text>
 						</NodeLabel>
-						<Literal Bounds="2 94 40 15" DataType="Double" Id="633" Label="634">
+						<Literal Bounds="2 94 40 15" DataType="Double" Id="649" Label="650">
 							<p.Data>0x0</p.Data>
 							<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 						</Literal>
-						<NodeLabel AttachedTo="633" Bounds="2 76 30 15" Id="634" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="649" Bounds="2 76 30 15" Id="650" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>RH</p.Text>
 						</NodeLabel>
 					</ClusterLiteral>
@@ -175,7 +175,7 @@
 				<CaseStructure.Tunnel Bounds="656 295 13 10" Docking="Right" Id="585" Terminals="106=105, 107=589, 108=584" />
 			</CaseStructure>
 			<DataAccessor Bounds="945 205 40 15" DataItem="615" Id="616" Label="617" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@c82144fd1f3145138dc5f9e0972127bd" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@e94f85e185684b3ea132a2ad10fb59a3" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<NodeLabel AttachedTo="616" Bounds="990 205 71 14" Id="617" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>ActualValues</p.Text>
@@ -197,18 +197,18 @@
 				</p4:p.TypeDefinitionTargets>
 			</NumericText>
 			<Label Height="[float]16" Id="18" LabelOwner="[UIModel]17" Left="[float]98" Text="[string]client handle" Top="[float]192" Width="[float]68" xmlns="http://www.ni.com/PanelCommon" />
-			<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@c82144fd1f3145138dc5f9e0972127bd" Height="[float]164" Id="607" IsTabStop="[bool]True" Label="[UIModel]614" Left="[float]372" TabIndex="[int]3" Top="[float]292" Value="{DataItemBinding Id=615}" Width="[float]88" p4:ControlDefinitionChecksum="BOWssdMEmjX4tAFIickavUIPUiFS8pmhAjhQGwi86ho=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+			<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@e94f85e185684b3ea132a2ad10fb59a3" Height="[float]164" Id="607" IsTabStop="[bool]True" Label="[UIModel]614" Left="[float]372" TabIndex="[int]3" Top="[float]292" Value="{DataItemBinding Id=615}" Width="[float]88" p4:ControlDefinitionChecksum="ovAUmIICIOWikLmq1C0NPGu8zB0DsFhMY2IwLSJyd2M=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
 				<p4:p.TypeDefinitionTargets>
-					<p4:TypeDefinitionTarget TargetName="WebApp::NodeCommunication::ActualValues.gtype::ControlDefinition" />
+					<p4:TypeDefinitionTarget TargetName="WebApp::NodeCommunication::Gtype::ActualValues.gtype::ControlDefinition" />
 				</p4:p.TypeDefinitionTargets>
-				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="620" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" IsReadOnly="[bool]True" Label="[UIModel]621" Left="[float]4" MinHeight="[float]24" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Time}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-				<p4:Label Height="[float]16" Id="621" LabelOwner="[UIModel]620" Left="[float]4" Text="[string]Time" Top="[float]4" Width="[float]26" />
-				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="622" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" IsReadOnly="[bool]True" Label="[UIModel]623" Left="[float]4" MinHeight="[float]24" TabIndex="[int]1" Top="[float]76" Value="{ClusterBinding FieldName=Temp}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-				<p4:Label Height="[float]16" Id="623" LabelOwner="[UIModel]622" Left="[float]4" Text="[string]Temp" Top="[float]56" Width="[float]29" />
-				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="624" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" IsReadOnly="[bool]True" Label="[UIModel]625" Left="[float]4" MinHeight="[float]24" TabIndex="[int]2" Top="[float]128" Value="{ClusterBinding FieldName=RH}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-				<p4:Label Height="[float]16" Id="625" LabelOwner="[UIModel]624" Left="[float]4" Text="[string]RH" Top="[float]108" Width="[float]16" />
+				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="636" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" IsReadOnly="[bool]True" Label="[UIModel]637" Left="[float]4" MinHeight="[float]24" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Time}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Id="637" LabelOwner="[UIModel]636" Left="[float]4" Text="[string]Time" Top="[float]4" />
+				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="638" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" IsReadOnly="[bool]True" Label="[UIModel]639" Left="[float]4" MinHeight="[float]24" TabIndex="[int]1" Top="[float]76" Value="{ClusterBinding FieldName=Temp}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Id="639" LabelOwner="[UIModel]638" Left="[float]4" Text="[string]Temp" Top="[float]56" />
+				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="640" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" IsReadOnly="[bool]True" Label="[UIModel]641" Left="[float]4" MinHeight="[float]24" TabIndex="[int]2" Top="[float]128" Value="{ClusterBinding FieldName=RH}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Id="641" LabelOwner="[UIModel]640" Left="[float]4" Text="[string]RH" Top="[float]108" />
 			</Cluster>
-			<Label Height="[float]16" Id="614" LabelOwner="[UIModel]607" Left="[float]372" Text="[string]ActualValues" Top="[float]272" Width="[float]67" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Id="614" LabelOwner="[UIModel]607" Left="[float]372" Text="[string]ActualValues" Top="[float]272" xmlns="http://www.ni.com/PanelCommon" />
 			<Cluster BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]176" Id="78" IsTabStop="[bool]True" Label="[UIModel]85" Left="[float]100" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]4" Top="[float]484" Value="{DataItemBinding Id=77}" Width="[float]176" p4:ControlDefinitionChecksum="e3nj023iwYRzhBkV8z61WFGSCt7pzzv3hwIJFanixR4=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
 				<p4:p.TypeDefinitionTargets>
 					<p4:TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype::ControlDefinition" />
@@ -273,10 +273,10 @@
 				<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
-		<DataItem CallDirection="Output" CallIndex="1" DataType="@c82144fd1f3145138dc5f9e0972127bd" Id="615" Name="ActualValues" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Output" CallIndex="1" DataType="@e94f85e185684b3ea132a2ad10fb59a3" Id="615" Name="ActualValues" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0x0_0x0_0x0_</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
-				<TypeDefinitionTarget TargetName="WebApp::NodeCommunication::ActualValues.gtype" />
+				<TypeDefinitionTarget TargetName="WebApp::NodeCommunication::Gtype::ActualValues.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
 	</VirtualInstrument>
@@ -296,10 +296,10 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="c82144fd1f3145138dc5f9e0972127bd">
+		<p.TypeReference TypeId="e94f85e185684b3ea132a2ad10fb59a3">
 			<Attributed AttributedType="@ab7739202f93476d9696718bb43379ee">
 				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::NodeCommunication" />
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]WebApp::NodeCommunication::Gtype" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
