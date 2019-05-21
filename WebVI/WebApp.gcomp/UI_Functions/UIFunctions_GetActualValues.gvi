@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="E5054CE4C0ADC2DF929B89ADE849A67DE68780BABBBB69B45ED7BA373C7EA02CE31A9F148EBEEA4F69346DFB28D6075981E84314BBA5F7807B59C2CC6C8EFEFF" Timestamp="1D5072F14A2BBD5" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="1F7A98EDA1F64A562C08BDE1B119FD9DF4C3D0AAB0DECD4ABAEA6ACE402D3901FF0E62678982C642B2A9C1F6EF28994AB5B2CA567CEAD16DD43D30C53847D158" Timestamp="1D50FB7D01B370F" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -18,6 +18,12 @@
 					<Rectangle Fill="[SMSolidColorBrush]#b2000000" Height="[float]11" Id="335" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,2,4,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]NaN" />
 					<Path Data="[PathGeometry]M 2,11 L 2,2 C 2,0.899999976 1.10000002,0 0,0 L 0,11 L 2,11 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]11" HorizontalAlignment="[HorizontalAlignment]Right" Id="336" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
 				</IconTemplate>
+				<Text Foreground="[SMColor]#ffffffff" Height="[float]12" Id="1272" Left="[float]14" SizeMode="[TextModelSizeMode]Fixed" Text="[string]UI" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]1" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]13">
+					<FontSetting FontFamily="Verdana" FontSize="8" Id="1273" />
+				</Text>
+				<Text Height="[float]12" Id="1274" Left="[float]6" Text="[string]Actual" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]17" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]29">
+					<FontSetting FontFamily="Verdana" FontSize="7" Id="1275" />
+				</Text>
 			</IconPanel>
 		</Icon>
 		<ConnectorPane Height="40" Id="9" ListViewHeight="115" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="E5033D841B15B89B91E7666C2F1D2B4EE8B5C5154FA4F4672E7CDAC8FE32BA90B1862E0987278B6B9BBCF0EA50CE61F26DE20B03BACF68D258E0A79013888FBE" Timestamp="1D50716B5F077F0" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="069086D10451559A2F1B3B1B5629139545CF73CDB342EB20593F3122C0D71691B72EF5CBAEB69EECCE29632024ED8C7DC8B8246EFE75F38F50DDAAB1F84DD69B" Timestamp="1D50FB7CFD29989" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
@@ -39,11 +39,6 @@
 						<SourceFileReference Bindings="EnvoyManager" Id="48" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Debug.gtype" StoragePath="NodeCommunication\Gtype\Debug.gtype\Debug.gtype" />
 					</NameScopingEnvoy>
 				</NameScopingEnvoy>
-				<SourceFileReference Id="35" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UI_Actuals.gvi" StoragePath="UI_Actuals.gvi" />
-				<SourceFileReference Id="36" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UI_Averaged.gvi" StoragePath="UI_Averaged.gvi" />
-				<SourceFileReference Id="38" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UI_Historical.gvi" StoragePath="UI_Historical.gvi" />
-				<SourceFileReference Id="41" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UI_HistoricalMinMax.gvi" StoragePath="UI_HistoricalMinMax.gvi" />
-				<SourceFileReference Id="42" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UI_FileList.gvi" StoragePath="UI_FileList.gvi" />
 				<SourceFileReference Bindings="EnvoyManager" Id="43" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="NodeGraphs.gtype" StoragePath="NodeGraphs.gtype\NodeGraphs.gtype" />
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="49" Name="UI_Functions">
 					<SourceFileReference Id="50" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UIFunctions_init.gvi" StoragePath="UI_Functions\UIFunctions_init.gvi" />
