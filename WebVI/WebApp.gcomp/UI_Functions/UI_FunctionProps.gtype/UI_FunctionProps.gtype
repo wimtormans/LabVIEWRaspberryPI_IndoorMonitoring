@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="1D01D7FA12D9C9335AFF514AC778F00D6FF5A842DBD5058F195562B6B90A4D02B7F411C5B28B3C43E6F80AADA57EC2EC85ED4E073502E27551845EEF9FC555F5" Timestamp="1D507103D3650F9" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.2.1.50272" Name="LabVIEW NXG" Version="3.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@808d6575a9b24c38a228fe781cdc6b86" Id="1" xmlns="http://www.ni.com/MocCommon">
+		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+			<TypeDefinitionTarget TargetName="NI::HTTP::Client Handle.gtype" />
+			<TypeDefinitionTarget TargetName="NI::G Core::Color Picker::Color.gtype" />
+		</p.TypeDefinitionTargets>
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@808d6575a9b24c38a228fe781cdc6b86" Id="10" Name="Cluster">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>
+						<Array Lengths="3" IsBinary="True" Compression="GZip">
+							<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMZiBmYwISfIaWRnqGZhZ6huYWembmbCAJfmQxQxMTNhYMQUtDbgAcrNK9WQAAAA==</BinaryElements>
+						</Array>
+					</Field1>
+					<Field2>0</Field2>
+					<Field3>null</Field3>
+					<Field4>0</Field4>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="NI::HTTP::Client Handle.gtype" />
+				<TypeDefinitionTarget TargetName="NI::G Core::Color Picker::Color.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="5" xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="6" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="7" Name="UI_FunctionProps.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="8" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Indicator" Id="9" xmlns="http://www.ni.com/MocCommon">
+					<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@808d6575a9b24c38a228fe781cdc6b86" Height="[float]471" Id="12" Label="[UIModel]13" Left="[float]96" TabIndex="[int]0" Top="[float]116" Value="{DataItemBinding Id=10}" Width="[float]298" xmlns="http://www.ni.com/PanelCommon">
+						<ArrayViewer ArrayElement="[UIModel]15" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]92" Id="14" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]16" Left="[float]14" Orientation="[SMOrientation]Vertical" Rows="[int]3" TabIndex="[int]0" Top="[float]28" Value="{ClusterBinding FieldName=HTTP_BaseStrings}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]104">
+							<p.DefaultElementValue>""</p.DefaultElementValue>
+							<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="15" IsReadOnly="[bool]True" MinHeight="[float]24" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						</ArrayViewer>
+						<Label Height="[float]16" Id="16" LabelOwner="[UIModel]14" Left="[float]14" Text="[string]HTTP_BaseStrings" Top="[float]8" Width="[float]93" />
+						<NumericText BaseName="[string]Client Handle" Height="[float]36" Id="20" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[uint]1" IsReadOnly="[bool]True" Label="[UIModel]21" Left="[float]13" MinHeight="[float]24" TabIndex="[int]1" Top="[float]145" Value="{ClusterBinding FieldName=HTTP\ client\ handle}" ValueFormatter="[string]LV:G6" ValueType="[Type]@947d6c56ec454f9ca31adc474ee0cee1" Width="[float]75" p7:ControlDefinitionChecksum="ltbpXg2KVYUHWRK7sz4nUXH0wiYiESuWfPsnwaJnJTo=" xmlns:p7="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+							<p7:p.TypeDefinitionTargets>
+								<p7:TypeDefinitionTarget TargetName="NI::HTTP::Client Handle.gtype::ControlDefinition" />
+							</p7:p.TypeDefinitionTargets>
+						</NumericText>
+						<Label Height="[float]16" Id="21" LabelOwner="[UIModel]20" Left="[float]13" Text="[string]HTTP client handle" Top="[float]125" Width="[float]99" />
+						<ArrayViewer ArrayElement="[UIModel]23" BaseName="[string]Boolean Array Input" Columns="[int]1" Dimensions="[int]1" Height="[float]140" HorizontalScrollBarVisibility="[ScrollBarVisibility]Visible" Id="22" IndexVisibility="[Visibility]Collapsed" Label="[UIModel]25" Left="[float]132" Orientation="[SMOrientation]Vertical" Rows="[int]3" TabIndex="[int]2" Top="[float]29" Value="{ClusterBinding FieldName=NodesOnline}" Width="[float]52">
+							<p.DefaultElementValue>False</p.DefaultElementValue>
+							<Switch FalseContent="[string]Off" Height="[float]40" Id="23" IsReadOnly="[bool]True" Label="[UIModel]24" MinHeight="[float]36" MinWidth="[float]36" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TrueContent="[string]On" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+								<Label Id="24" IsVisualChild="[bool]False" LabelOwner="[UIModel]23" Left="[float]6" Text="[string]Switch" Top="[float]30" xmlns="http://www.ni.com/PanelCommon" />
+							</Switch>
+						</ArrayViewer>
+						<Label Height="[float]16" Id="25" LabelOwner="[UIModel]22" Left="[float]132" Text="[string]NodesOnline" Top="[float]9" Width="[float]69" />
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="31" Label="[UIModel]32" Left="[float]14" RefnumType="[Type]:DotNet:NationalInstruments.Controls.Runtime.ListboxProxy, NationalInstruments.Controls.Runtime`Int32`Int32" TabIndex="[int]3" Top="[float]209" Value="{ClusterBinding FieldName=ListBoxRef}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="32" LabelOwner="[UIModel]31" Left="[float]14" Text="[string]ListBoxRef" Top="[float]189" Width="[float]54" />
+					</Cluster>
+					<Label Height="[float]16" Id="13" LabelOwner="[UIModel]12" Left="[float]96" Text="[string]Cluster" Top="[float]96" Width="[float]37" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="808d6575a9b24c38a228fe781cdc6b86">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="HTTP_BaseStrings" DataType="String[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="HTTP client handle" DataType="@947d6c56ec454f9ca31adc474ee0cee1" />
+					<Field FieldAccessPolicy="ReadWrite" Name="NodesOnline" DataType="Boolean[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="ListBoxRef" DataType=":DotNet:NationalInstruments.Controls.Runtime.ListboxProxy, NationalInstruments.Controls.Runtime`Int32`Int32" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="947d6c56ec454f9ca31adc474ee0cee1">
+			<Attributed AttributedType="@c36a7587c369402c99076f34832b1e39">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI::HTTP" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="c36a7587c369402c99076f34832b1e39">
+			<Typedef TypedefName="Client Handle.gtype" UnderlyingType="UInt32" />
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

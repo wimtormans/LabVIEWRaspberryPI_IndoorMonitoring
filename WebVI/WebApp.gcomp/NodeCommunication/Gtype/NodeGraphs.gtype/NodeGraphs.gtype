@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="5362EE2346E805B89C1F111CBE300067707DA562D9BE6B47EE28D2C2EE0AC25BB590868C99A677B4B687729C68D17FA02B2F3384EC6DFB63F5FEEAAAF3919076" Timestamp="1D506623607AC5E" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.2.1.50272" Name="LabVIEW NXG" Version="3.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@6cdf6ae245fb4373a9189c3421852a30" Id="1" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@6cdf6ae245fb4373a9189c3421852a30" Id="27" Name="Cluster">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>null</Field1>
+				</Cluster>
+			</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="5" xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="6" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="7" Name="NodeGraphs.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="8" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="9" xmlns="http://www.ni.com/MocCommon">
+					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@6cdf6ae245fb4373a9189c3421852a30" Height="[float]184" Id="10" Label="[UIModel]28" Left="[float]98" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=27}" Width="[float]210" xmlns="http://www.ni.com/PanelCommon">
+						<ArrayViewer ArrayElement="[UIModel]11" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]148" Id="32" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" Label="[UIModel]33" Left="[float]4" Orientation="[SMOrientation]Horizontal" Rows="[int]1" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Graphs}" Width="[float]194">
+							<p.DefaultElementValue>
+								<Cluster>
+									<Field1>null</Field1>
+									<Field2>null</Field2>
+								</Cluster>
+							</p.DefaultElementValue>
+							<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@5109e0cb78e640edac577a32c60edbe2" Height="[float]136" Id="11" Label="[UIModel]12" TabIndex="[int]0" Width="[float]127">
+								<ArrayViewer ArrayElement="[UIModel]23" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]36" Id="15" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]16" Left="[float]4" Orientation="[SMOrientation]Vertical" Rows="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=Time}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]104">
+									<p.DefaultElementValue>0x0</p.DefaultElementValue>
+									<NumericText BaseName="[string]Numeric" Height="[float]24" Id="23" MinHeight="[float]24" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								</ArrayViewer>
+								<Label Height="[float]16" Id="16" LabelOwner="[UIModel]15" Left="[float]4" Text="[string]Time" Top="[float]4" Width="[float]26" />
+								<ArrayViewer ArrayElement="[UIModel]24" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]36" Id="17" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]18" Left="[float]4" Orientation="[SMOrientation]Vertical" Rows="[int]1" Top="[float]88" Value="{ClusterBinding FieldName=Value}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]104">
+									<p.DefaultElementValue>0x0</p.DefaultElementValue>
+									<NumericText BaseName="[string]Numeric" Height="[float]24" Id="24" MinHeight="[float]24" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								</ArrayViewer>
+								<Label Height="[float]16" Id="18" LabelOwner="[UIModel]17" Left="[float]4" Text="[string]Value" Top="[float]68" Width="[float]29" />
+								<Label Height="[float]16" Id="12" IsVisualChild="[bool]False" LabelOwner="[UIModel]11" Left="[float]61" Text="[string]Temp" Top="[float]-14" Width="[float]29" />
+							</Cluster>
+						</ArrayViewer>
+						<Label Height="[float]16" Id="33" LabelOwner="[UIModel]32" Left="[float]4" Text="[string]Graphs" Top="[float]4" Width="[float]38" />
+					</Cluster>
+					<Label Height="[float]16" Id="28" LabelOwner="[UIModel]10" Left="[float]98" Text="[string]Cluster" Top="[float]80" Width="[float]37" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="6cdf6ae245fb4373a9189c3421852a30">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Graphs" DataType="@69b4a83c4cec4945be4712e97a768e22" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="5109e0cb78e640edac577a32c60edbe2">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Time" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Value" DataType="Double[]" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="69b4a83c4cec4945be4712e97a768e22">
+			<VariableArray DereferenceType="@5109e0cb78e640edac577a32c60edbe2" />
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
