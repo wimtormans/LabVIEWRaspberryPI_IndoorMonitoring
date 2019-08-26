@@ -93,17 +93,18 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Utils" Type="Folder">
-			<Item Name="AddCorHeaders.vi" Type="VI" URL="../Utils/AddCorHeaders.vi"/>
+			<Item Name="AddCORSHeaders.vi" Type="VI" URL="../Utils/AddCORSHeaders.vi"/>
 			<Item Name="GetPICoreTemperature.vi" Type="VI" URL="../Utils/GetPICoreTemperature.vi"/>
 			<Item Name="FilterFaulty.vi" Type="VI" URL="../Utils/FilterFaulty.vi"/>
 			<Item Name="ProcessOldFilesOnTarget.vi" Type="VI" URL="../Utils/ProcessOldFilesOnTarget.vi"/>
+			<Item Name="LedGPIO4.vi" Type="VI" URL="../Utils/LedGPIO4.vi"/>
 		</Item>
 		<Item Name="IndoorData.lvclass" Type="LVClass" URL="../IndoorData_class/IndoorData.lvclass"/>
 		<Item Name="SHT21.lvclass" Type="LVClass" URL="../Sensor_SHT21/SHT21_class/SHT21.lvclass"/>
 		<Item Name="NodeConfiguration.lvclass" Type="LVClass" URL="../NodeConfiguration_class/NodeConfiguration.lvclass"/>
 		<Item Name="IndoorMonitoring" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
-			<Property Name="Bld_version.build" Type="Int">18</Property>
+			<Property Name="Bld_version.build" Type="Int">20</Property>
 			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
 			<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
@@ -337,7 +338,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6584B0D4-9E80-42A9-9BEA-61B637203188}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
